@@ -1,0 +1,16 @@
+# By enabling this property, a debug.log file will be created into the plugins/NoBlackSky folder.
+# Debug logs will be printed on the server console and appended on this debug file.
+# This file is required when a bug or an issue is reported. By default, this value is false.
+debug-mode: false
+# By enabling this property, the black sky glitch in all your NORMAL worlds
+# (not nether or end worlds) will be fixed.
+always-enabled: false
+# From Spigot 1.17, you can create custom worlds so, if you want to
+# include it, enable this property. Obviously, by enabling this property
+# from a version before 1.17, this will be automatically reset to false.
+include-custom-worlds: false
+# If always-enabled property is disabled and you want to fix
+# the black sky glitch in your world, add it into the list below.
+# There's no need to add your ParadiseLand worlds, it will be automatically solved.
+worlds: 
+- exampleWorld
