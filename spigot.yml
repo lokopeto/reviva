@@ -31,7 +31,7 @@ settings:
   sample-count: 12
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: ./start5gb.bat
 commands:
   tab-complete: 0
   send-namespaced: true
@@ -54,7 +54,7 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
 advancements:
-  disable-saving: false
+  disable-saving: true
   disabled:
   - minecraft:story/disabled
 config-version: 12

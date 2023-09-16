@@ -1,5 +1,5 @@
 settings:
-  allow-end: true
+  allow-end: false
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update
@@ -30,3 +30,6 @@ ticks-per:
   ambient-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
+worlds:
+  world:
+    generator: VoidGen

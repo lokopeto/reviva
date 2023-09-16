@@ -1,222 +1,165 @@
-[13:04:05] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[13:04:05] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[13:04:05] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[13:04:07] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
-[13:04:14] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:04:14] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[13:04:16] [ServerMain/INFO]: Loaded 7 recipes
-[13:04:17] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:04:17] [Server thread/WARN]: ****************************
-[13:04:17] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[13:04:17] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[13:04:17] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[13:04:17] [Server thread/WARN]: ****************************
-[13:04:17] [Server thread/INFO]: Loading properties
-[13:04:17] [Server thread/INFO]: This server is running Paper version git-Paper-183 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: eb60bff)
-[13:04:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:04:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:04:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[13:04:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:20:59] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[13:20:59] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[13:20:59] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[13:21:00] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[13:21:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:21:07] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:21:09] [ServerMain/INFO]: Loaded 7 recipes
+[13:21:10] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:21:10] [Server thread/WARN]: ****************************
+[13:21:10] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:21:10] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:21:10] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:21:10] [Server thread/WARN]: ****************************
+[13:21:10] [Server thread/INFO]: Loading properties
+[13:21:10] [Server thread/INFO]: This server is running Paper version git-Paper-183 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: eb60bff)
+[13:21:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:21:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:21:10] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:04:18] [Server thread/INFO]: Default game type: SURVIVAL
-[13:04:18] [Server thread/INFO]: Generating keypair
-[13:04:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:04:18] [Server thread/INFO]: Using default channel type
-[13:04:18] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:04:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:04:19] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.8.1/mongodb-driver-sync-4.8.1.pom
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/4.8.1/bson-4.8.1.pom
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.8.1/mongodb-driver-core-4.8.1.pom
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.84.Final/netty-bom-4.1.84.Final.pom
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.8.1/bson-record-codec-4.8.1.pom
-[13:04:20] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/4.3.1/jedis-4.3.1.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/json/json/20220320/json-20220320.pom
-[13:04:21] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.pom
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.9/gson-parent-2.8.9.pom
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson-record-codec/4.8.1/bson-record-codec-4.8.1.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-core/4.8.1/mongodb-driver-core-4.8.1.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-sync/4.8.1/mongodb-driver-sync-4.8.1.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/mongodb/bson/4.8.1/bson-4.8.1.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/json/json/20220320/json-20220320.jar
-[13:04:22] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-sync\4.8.1\mongodb-driver-sync-4.8.1.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\bson\4.8.1\bson-4.8.1.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-core\4.8.1\mongodb-driver-core-4.8.1.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\bson-record-codec\4.8.1\bson-record-codec-4.8.1.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\json\json\20220320\json-20220320.jar
-[13:04:22] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
-[13:04:22] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
-[13:04:24] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3203)
-[13:04:24] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
-[13:04:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6caadd0e]
-[13:04:24] [Server thread/INFO]: Default configuration file written: worldedit-config.yml
-[13:04:24] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.2.8-SNAPSHOT (build 1795-REL)
-[13:04:24] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
-[13:04:24] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.7.0
-[13:04:24] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
-[13:04:24] [Server thread/INFO]: [NoBlackSky] Loading server plugin NoBlackSky v2.10
-[13:04:24] [Server thread/INFO]: [NoBlackSky] §aDetected 1.20.1 server version
-[13:04:25] [Server thread/INFO]: [goBrush] Loading server plugin goBrush v3.8.0-62
-[13:04:25] [Server thread/INFO]: [Depenizen] Loading server plugin Depenizen v2.1.0 (build 845)
-[13:04:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[13:04:25] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
-[13:04:25] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[13:04:25] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[13:04:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:04:25] [Server thread/INFO]: WEPIF: Updated config file
-[13:04:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:04:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
-[13:04:26] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[13:04:26] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
-[13:04:26] [Server thread/INFO]: [VoidGen] The file:"configuration.json"was not found.
-[13:04:26] [Server thread/INFO]: [VoidGen] A new file will be generated and the default configuration will be used instead.
-[13:04:26] [Server thread/INFO]: Preparing level "world"
-[13:04:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:04:38] [Server thread/INFO]: Time elapsed: 124 ms
-[13:04:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:04:38] [Server thread/INFO]: Time elapsed: 105 ms
-[13:04:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:04:38] [Server thread/INFO]: Time elapsed: 116 ms
-[13:04:38] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3203)
-[13:04:38] [Server thread/INFO]: [Citizens] Loading external libraries
-[13:04:45] [Server thread/INFO]: Creating file: config.yml
-[13:04:45] [Server thread/INFO]: [Citizens] No translation for system language (pt_BR): defaulting to English
-[13:04:45] [Server thread/INFO]: Creating file: saves.yml
-[13:04:45] [Server thread/INFO]: Creating file: shops.yml
-[13:04:45] [Server thread/INFO]: [Denizen] Enabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
-[13:04:45] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1355), impl for Spigot v1.2.8-SNAPSHOT (build 1795-REL) 
-[13:04:46] [Server thread/INFO]: +> [Denizen] Running on java version: 17.0.4 
-[13:04:46] [Server thread/INFO]: +> [Denizen] Running on fully supported Java 17. 
-[13:04:46] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[13:04:46] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
-[13:04:46] [Server thread/INFO]: +> [Denizen]  
-[13:04:46] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
-[13:04:46] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
-[13:04:46] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
-[13:04:46] [Server thread/INFO]: +> [Denizen] version: 1.2.8-SNAPSHOT (build 1795-REL) 
-[13:04:46] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[13:04:46] [Server thread/INFO]: +> [Denizen] Denizen.mid not found, extracting from /E:/Server mine 2/reviva/plugins/Denizen-1.2.8-b1795-REL.jar 
-[13:04:47] [Server thread/INFO]: +> [TriggerRegistry] Loaded 4 core triggers 
-[13:04:47] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
-[13:04:47] [Server thread/INFO]: +> [Denizen] Loaded 148 core commands and 29 core object types, at 2112ms from start. 
-[13:04:48] [Server thread/INFO]: +> [ScriptHelper] No scripts in /plugins/Denizen/scripts/ to load! 
-[13:04:48] [Server thread/INFO]: +> [ScriptRegistry] Loading 0 script files... 
-[13:04:48] [Server thread/INFO]: +> [DenizenCore] Scripts loaded! File load took 4ms, processing 7ms. 
-[13:04:48] [Server thread/INFO]: +> [Denizen] Final full init took 2173ms. 
-[13:04:48] [Server thread/INFO]: [Skript] Enabling Skript v2.7.0
-[13:04:48] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.
-[13:04:49] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[13:04:58] [Server thread/INFO]: [Skript] Loaded 150750 aliases in 10299ms
-[13:04:59] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[13:04:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
-[13:04:59] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
-[13:04:59] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[13:04:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[13:04:59] [Server thread/INFO]: [NoBlackSky] Enabling NoBlackSky v2.10
-[13:04:59] [Server thread/INFO]: [goBrush] Enabling goBrush v3.8.0-62
-[13:04:59] [Server thread/INFO]: [goBrush] Downloading brushes from GitHub, please wait...
-[13:05:01] [Server thread/INFO]: [goBrush] Brushes have been downloaded successfully.
-[13:05:01] [Server thread/INFO]: [goBrush] Extracting brushes...
-[13:05:02] [Server thread/INFO]: [goBrush] Cleaning up...
-[13:05:02] [Server thread/WARN]: java.nio.file.FileSystemException: plugins\goBrush\brushes\brushes.zip: O arquivo já está sendo usado por outro processo
-[13:05:02] [Server thread/WARN]: 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
-[13:05:02] [Server thread/WARN]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-[13:05:02] [Server thread/WARN]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-[13:05:02] [Server thread/WARN]: 	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
-[13:05:02] [Server thread/WARN]: 	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
-[13:05:02] [Server thread/WARN]: 	at java.base/java.nio.file.Files.delete(Files.java:1152)
-[13:05:02] [Server thread/WARN]: 	at goBrush-3.8.0-62.jar//com.arcaniax.gobrush.util.BrushZipManager.setupBrushes(BrushZipManager.java:66)
-[13:05:02] [Server thread/WARN]: 	at goBrush-3.8.0-62.jar//com.arcaniax.gobrush.GoBrushPlugin.onEnable(GoBrushPlugin.java:66)
-[13:05:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
-[13:05:02] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
-[13:05:02] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
-[13:05:02] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
-[13:05:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
-[13:05:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
-[13:05:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635)
-[13:05:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434)
-[13:05:02] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
-[13:05:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1100)
-[13:05:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
-[13:05:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[13:05:02] [Server thread/INFO]: [goBrush] Registered 18 brushes. We are all set!
-[13:05:03] [Server thread/INFO]: [Depenizen] Enabling Depenizen v2.1.0 (build 845)
-[13:05:03] [Server thread/INFO]: +> [Depenizen] Depenizen loading... 
-[13:05:03] [Server thread/INFO]: +> [Depenizen] Loaded bridge for 'WorldEdit'! 
-[13:05:03] [Server thread/INFO]: +> [Depenizen] Depenizen loaded! 1 plugin bridge(s) loaded (of 42 available) 
-[13:05:03] [Server thread/INFO]: Running delayed init tasks
-[13:05:03] [Server thread/INFO]: [Skript] Loading variables...
-[13:05:03] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[13:05:03] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[13:05:03] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
-[13:05:03] [Server thread/INFO]: [Skript] Finished loading.
-[13:05:03] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[13:05:03] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:05:03] [Server thread/INFO]: +> [ScriptEvent] Processed 0 script event paths. 
-[13:05:03] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[13:05:03] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2023/09/16 13:04:45 
-[13:05:03] [Server thread/INFO]: Done (45.950s)! For help, type "help"
-[13:05:03] [Server thread/INFO]: Timings Reset
-[13:07:48] [Server thread/INFO]: Stopping the server
-[13:07:48] [Server thread/INFO]: Stopping server
-[13:07:48] [Server thread/INFO]: [Depenizen] Disabling Depenizen v2.1.0 (build 845)
-[13:07:48] [Server thread/INFO]: [Denizen]  v1.2.8-SNAPSHOT (build 1795-REL) disabled.
-[13:07:48] [Server thread/INFO]: [goBrush] Disabling goBrush v3.8.0-62
-[13:07:48] [Server thread/INFO]: [NoBlackSky] Disabling NoBlackSky v2.10
-[13:07:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
-[13:07:48] [Server thread/INFO]: [Skript] Disabling Skript v2.7.0
-[13:07:48] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
-[13:07:48] [Server thread/INFO]: [Denizen] Disabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
-[13:07:48] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
-[13:07:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:07:48] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.32-SNAPSHOT (build 3203)
-[13:07:48] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
-[13:07:48] [Server thread/INFO]: Saving players
-[13:07:48] [Server thread/INFO]: Saving worlds
-[13:07:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:07:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:07:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:07:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:07:51] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 1 poi chunks in world 'world' in 2,17s
-[13:07:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:07:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:07:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:07:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:07:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:07:53] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1,32s
-[13:07:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:07:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:07:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:07:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:07:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:07:55] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,71s
-[13:07:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:07:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:07:55] [Server thread/INFO]: Flushing Chunk IO
-[13:07:55] [Server thread/INFO]: Closing Thread Pool
-[13:07:55] [Server thread/INFO]: Closing Server
+[13:21:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[13:21:11] [Server thread/INFO]: Default game type: SURVIVAL
+[13:21:11] [Server thread/INFO]: Generating keypair
+[13:21:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:21:11] [Server thread/INFO]: Using default channel type
+[13:21:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:21:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-sync\4.8.1\mongodb-driver-sync-4.8.1.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\bson\4.8.1\bson-4.8.1.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-core\4.8.1\mongodb-driver-core-4.8.1.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\bson-record-codec\4.8.1\bson-record-codec-4.8.1.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\json\json\20220320\json-20220320.jar
+[13:21:12] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+[13:21:12] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[13:21:13] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3203)
+[13:21:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
+[13:21:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@69cca5cc]
+[13:21:14] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[13:21:14] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[13:21:14] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.7.0
+[13:21:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[13:21:14] [Server thread/INFO]: [NoBlackSky] Loading server plugin NoBlackSky v2.10
+[13:21:14] [Server thread/INFO]: [NoBlackSky] §aDetected 1.20.1 server version
+[13:21:15] [Server thread/INFO]: [goBrush] Loading server plugin goBrush v3.8.0-62
+[13:21:15] [Server thread/INFO]: [Depenizen] Loading server plugin Depenizen v2.1.0 (build 845)
+[13:21:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:21:15] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[13:21:15] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
+[13:21:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[13:21:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[13:21:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:21:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:21:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[13:21:16] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[13:21:16] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[13:21:16] [Server thread/INFO]: Preparing level "world"
+[13:21:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:21:27] [Server thread/INFO]: Time elapsed: 118 ms
+[13:21:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:21:27] [Server thread/INFO]: Time elapsed: 93 ms
+[13:21:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:21:27] [Server thread/INFO]: Time elapsed: 114 ms
+[13:21:27] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3203)
+[13:21:27] [Server thread/INFO]: [Citizens] Loading external libraries
+[13:21:28] [Server thread/INFO]: [Citizens] No translation for system language (pt_BR): defaulting to English
+[13:21:28] [Server thread/INFO]: [Denizen] Enabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[13:21:28] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1355), impl for Spigot v1.2.8-SNAPSHOT (build 1795-REL) 
+[13:21:29] [Server thread/INFO]: +> [Denizen] Running on java version: 17.0.4 
+[13:21:29] [Server thread/INFO]: +> [Denizen] Running on fully supported Java 17. 
+[13:21:29] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[13:21:29] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
+[13:21:29] [Server thread/INFO]: +> [Denizen]  
+[13:21:29] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
+[13:21:29] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
+[13:21:29] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
+[13:21:29] [Server thread/INFO]: +> [Denizen] version: 1.2.8-SNAPSHOT (build 1795-REL) 
+[13:21:29] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[13:21:29] [Server thread/INFO]: +> [TriggerRegistry] Loaded 4 core triggers 
+[13:21:30] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
+[13:21:31] [Server thread/INFO]: +> [Denizen] Loaded 148 core commands and 29 core object types, at 2171ms from start. 
+[13:21:31] [Server thread/INFO]: +> [ScriptHelper] No scripts in /plugins/Denizen/scripts/ to load! 
+[13:21:31] [Server thread/INFO]: +> [ScriptRegistry] Loading 0 script files... 
+[13:21:31] [Server thread/INFO]: +> [DenizenCore] Scripts loaded! File load took 3ms, processing 8ms. 
+[13:21:31] [Server thread/INFO]: +> [Denizen] Final full init took 2230ms. 
+[13:21:31] [Server thread/INFO]: [Skript] Enabling Skript v2.7.0
+[13:21:32] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[13:21:40] [Server thread/INFO]: [Skript] Loaded 150750 aliases in 9452ms
+[13:21:41] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[13:21:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[13:21:41] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[13:21:41] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:21:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[13:21:41] [Server thread/INFO]: [NoBlackSky] Enabling NoBlackSky v2.10
+[13:21:41] [Server thread/INFO]: [goBrush] Enabling goBrush v3.8.0-62
+[13:21:42] [Server thread/INFO]: [Depenizen] Enabling Depenizen v2.1.0 (build 845)
+[13:21:42] [Server thread/INFO]: +> [Depenizen] Depenizen loading... 
+[13:21:43] [Server thread/INFO]: +> [Depenizen] Loaded bridge for 'WorldEdit'! 
+[13:21:43] [Server thread/INFO]: +> [Depenizen] Depenizen loaded! 1 plugin bridge(s) loaded (of 42 available) 
+[13:21:43] [Server thread/INFO]: Running delayed init tasks
+[13:21:43] [Server thread/INFO]: [Skript] Loading variables...
+[13:21:43] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[13:21:43] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[13:21:43] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[13:21:43] [Server thread/INFO]: [Skript] Finished loading.
+[13:21:43] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[13:21:43] [Server thread/INFO]: +> [ScriptEvent] Processed 0 script event paths. 
+[13:21:43] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[13:21:43] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:21:43] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2023/09/16 13:21:28 
+[13:21:43] [Server thread/INFO]: Done (32.988s)! For help, type "help"
+[13:21:43] [Server thread/INFO]: Timings Reset
+[13:24:04] [User Authenticator #0/INFO]: Disconnecting /127.0.0.1:50234: Failed to verify username!
+[13:24:04] [User Authenticator #0/ERROR]: Username 'lokopeto' tried to join with an invalid session
+[13:24:04] [Server thread/INFO]: /127.0.0.1:50234 lost connection: Failed to verify username!
+[13:24:07] [Server thread/INFO]: Stopping the server
+[13:24:08] [Server thread/INFO]: Stopping server
+[13:24:08] [Server thread/INFO]: [Depenizen] Disabling Depenizen v2.1.0 (build 845)
+[13:24:08] [Server thread/INFO]: [Denizen]  v1.2.8-SNAPSHOT (build 1795-REL) disabled.
+[13:24:08] [Server thread/INFO]: [goBrush] Disabling goBrush v3.8.0-62
+[13:24:08] [Server thread/INFO]: [NoBlackSky] Disabling NoBlackSky v2.10
+[13:24:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[13:24:08] [Server thread/INFO]: [Skript] Disabling Skript v2.7.0
+[13:24:08] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[13:24:08] [Server thread/INFO]: [Denizen] Disabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[13:24:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
+[13:24:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:24:08] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.32-SNAPSHOT (build 3203)
+[13:24:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[13:24:08] [Server thread/INFO]: Saving players
+[13:24:08] [Server thread/INFO]: Saving worlds
+[13:24:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:24:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:24:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:24:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:24:10] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 7 poi chunks in world 'world' in 2,42s
+[13:24:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:24:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:24:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:24:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:24:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:24:13] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1,50s
+[13:24:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:24:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:24:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:24:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:24:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:24:14] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,75s
+[13:24:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:24:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:24:15] [Server thread/INFO]: Flushing Chunk IO
+[13:24:15] [Server thread/INFO]: Closing Thread Pool
+[13:24:15] [Server thread/INFO]: Closing Server
