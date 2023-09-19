@@ -1,0 +1,7 @@
+\exl@-24:map@[__value=map@[5,65,0=map@[__value=map@[5000000000000031,0,270,jogo=map@[__value=true]]]]]
+\exl@25:map@[__value=map@[5,65,0=map@[__value=map@[49999999999999895,0,90,jogo=map@[__value=true]]]]]
+expandlast:Oeste
+expandlastloc:l@-8.5,65,17.5,0,270,jogo
+\exl@-7:map@[__value=map@[5,65,-16=map@[__value=map@[5,jogo=map@[__value=true]]]]]
+expandloc:l@-16.5,65,17.5,0,270,jogo
+\exl@0:map@[__value=map@[5,65,-8=map@[__value=map@[5,jogo=map@[__value=true]]];5,65,-24=map@[__value=map@[5,jogo=map@[__value=true]]];5000000000000021,65,25=map@[__value=map@[5,0,180,jogo=map@[__value=true]]]]]

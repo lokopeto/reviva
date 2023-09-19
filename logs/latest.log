@@ -1,197 +1,1153 @@
-[13:44:50] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[13:44:50] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[13:44:50] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[13:44:51] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
-[13:44:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:44:59] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[13:45:00] [ServerMain/WARN]: Failed to parse level-type minecraft:voidgen, defaulting to minecraft:normal
-[13:45:01] [ServerMain/INFO]: Loaded 7 recipes
-[13:45:02] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:45:02] [Server thread/WARN]: ****************************
-[13:45:02] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[13:45:02] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[13:45:02] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[13:45:02] [Server thread/WARN]: ****************************
-[13:45:02] [Server thread/INFO]: Loading properties
-[13:45:02] [Server thread/INFO]: This server is running Paper version git-Paper-183 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: eb60bff)
-[13:45:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:45:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:45:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:05:21] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[01:05:21] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[01:05:21] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[01:05:22] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[01:05:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:05:31] [ServerMain/INFO]: Loaded 7 recipes
+[01:05:31] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:05:31] [Server thread/WARN]: ****************************
+[01:05:31] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[01:05:31] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[01:05:31] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[01:05:31] [Server thread/WARN]: ****************************
+[01:05:31] [Server thread/INFO]: Loading properties
+[01:05:32] [Server thread/INFO]: This server is running Paper version git-Paper-183 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: eb60bff)
+[01:05:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:05:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:05:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:45:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
-[13:45:03] [Server thread/INFO]: Default game type: SURVIVAL
-[13:45:03] [Server thread/INFO]: Generating keypair
-[13:45:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:45:03] [Server thread/INFO]: Using default channel type
-[13:45:03] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:45:03] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-sync\4.8.1\mongodb-driver-sync-4.8.1.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\bson\4.8.1\bson-4.8.1.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-core\4.8.1\mongodb-driver-core-4.8.1.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\mongodb\bson-record-codec\4.8.1\bson-record-codec-4.8.1.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\org\json\json\20220320\json-20220320.jar
-[13:45:04] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Server mine 2\reviva\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
-[13:45:04] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
-[13:45:06] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3203)
-[13:45:06] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
-[13:45:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7be97865]
-[13:45:07] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.2.8-SNAPSHOT (build 1795-REL)
-[13:45:07] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
-[13:45:07] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.7.0
-[13:45:07] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
-[13:45:07] [Server thread/INFO]: [NoBlackSky] Loading server plugin NoBlackSky v2.10
-[13:45:07] [Server thread/INFO]: [NoBlackSky] §aDetected 1.20.1 server version
-[13:45:07] [Server thread/INFO]: [goBrush] Loading server plugin goBrush v3.8.0-62
-[13:45:07] [Server thread/INFO]: [Depenizen] Loading server plugin Depenizen v2.1.0 (build 845)
-[13:45:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:45:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[13:45:07] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
-[13:45:07] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[13:45:07] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[13:45:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:45:07] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:45:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
-[13:45:08] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[13:45:08] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
-[13:45:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:45:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:45:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:45:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:45:08] [Server thread/INFO]: Preparing level "world"
-[13:45:08] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
-[13:45:08] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[13:45:08] [Server thread/WARN]: Failed to parse level-type minecraft:voidgen, defaulting to minecraft:normal
-[13:45:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:45:09] [Server thread/INFO]: Time elapsed: 224 ms
-[13:45:09] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3203)
-[13:45:09] [Server thread/INFO]: [Citizens] Loading external libraries
-[13:45:10] [Server thread/INFO]: [Citizens] No translation for system language (pt_BR): defaulting to English
-[13:45:10] [Server thread/INFO]: [Denizen] Enabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
-[13:45:10] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1355), impl for Spigot v1.2.8-SNAPSHOT (build 1795-REL) 
-[13:45:11] [Server thread/INFO]: +> [Denizen] Running on java version: 17.0.4 
-[13:45:11] [Server thread/INFO]: +> [Denizen] Running on fully supported Java 17. 
-[13:45:11] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[13:45:11] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
-[13:45:11] [Server thread/INFO]: +> [Denizen]  
-[13:45:11] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
-[13:45:11] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
-[13:45:11] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
-[13:45:11] [Server thread/INFO]: +> [Denizen] version: 1.2.8-SNAPSHOT (build 1795-REL) 
-[13:45:11] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[13:45:11] [Server thread/INFO]: +> [TriggerRegistry] Loaded 4 core triggers 
-[13:45:12] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
-[13:45:12] [Server thread/INFO]: +> [Denizen] Loaded 148 core commands and 29 core object types, at 2166ms from start. 
-[13:45:12] [Server thread/INFO]: +> [ScriptHelper] No scripts in /plugins/Denizen/scripts/ to load! 
-[13:45:12] [Server thread/INFO]: +> [ScriptRegistry] Loading 0 script files... 
-[13:45:12] [Server thread/INFO]: +> [DenizenCore] Scripts loaded! File load took 4ms, processing 7ms. 
-[13:45:12] [Server thread/INFO]: +> [Denizen] Final full init took 2223ms. 
-[13:45:12] [Server thread/INFO]: [Skript] Enabling Skript v2.7.0
-[13:45:13] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[13:45:22] [Server thread/INFO]: [Skript] Loaded 150750 aliases in 9595ms
-[13:45:23] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[13:45:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
-[13:45:23] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
-[13:45:23] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[13:45:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[13:45:23] [Server thread/INFO]: [NoBlackSky] Enabling NoBlackSky v2.10
-[13:45:23] [Server thread/INFO]: [goBrush] Enabling goBrush v3.8.0-62
-[13:45:24] [Server thread/INFO]: [Depenizen] Enabling Depenizen v2.1.0 (build 845)
-[13:45:24] [Server thread/INFO]: +> [Depenizen] Depenizen loading... 
-[13:45:24] [Server thread/INFO]: +> [Depenizen] Loaded bridge for 'WorldEdit'! 
-[13:45:24] [Server thread/INFO]: +> [Depenizen] Depenizen loaded! 1 plugin bridge(s) loaded (of 42 available) 
-[13:45:24] [Server thread/INFO]: Running delayed init tasks
-[13:45:24] [Server thread/INFO]: [Skript] Loading variables...
-[13:45:24] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[13:45:24] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[13:45:24] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
-[13:45:24] [Server thread/INFO]: [Skript] Finished loading.
-[13:45:24] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[13:45:24] [Server thread/INFO]: +> [ScriptEvent] Processed 0 script event paths. 
-[13:45:24] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[13:45:24] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:45:24] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2023/09/16 13:45:10 
-[13:45:24] [Server thread/INFO]: Done (22.413s)! For help, type "help"
-[13:45:24] [Server thread/INFO]: Timings Reset
-[13:46:52] [User Authenticator #0/INFO]: UUID of player lokopeto is d09f8eb8-ae7d-3caa-bb58-e29486b30db7
-[13:46:53] [Server thread/INFO]: lokopeto joined the game
-[13:46:53] [Server thread/INFO]: lokopeto[/127.0.0.1:50450] logged in with entity id 1 at ([world]0.5, 65.0, 0.5)
-[13:47:26] [Server thread/INFO]: Made lokopeto a server operator
-[13:47:30] [Server thread/INFO]: lokopeto issued server command: /gamemode creative
-[13:47:30] [Server thread/INFO]: [lokopeto: Set own game mode to Creative Mode]
-[13:48:30] [Server thread/INFO]: lokopeto lost connection: Disconnected
-[13:48:30] [Server thread/INFO]: lokopeto left the game
-[13:55:34] [User Authenticator #1/INFO]: UUID of player lokopeto is d09f8eb8-ae7d-3caa-bb58-e29486b30db7
-[13:55:35] [Server thread/INFO]: lokopeto joined the game
-[13:55:35] [Server thread/INFO]: lokopeto[/127.0.0.1:50594] logged in with entity id 2 at ([world]0.7045815409756625, 65.0, 0.214957566426893)
-[13:57:39] [Server thread/INFO]: lokopeto issued server command: /time set day
-[13:57:39] [Server thread/INFO]: [lokopeto: Set the time to 1000]
-[13:57:49] [Server thread/INFO]: lokopeto issued server command: /gamerule doDaylightCycle false
-[13:57:49] [Server thread/INFO]: [lokopeto: Gamerule doDaylightCycle is now set to: false]
-[13:58:22] [Server thread/INFO]: lokopeto issued server command: //expand 5 5
-[13:58:29] [Server thread/INFO]: lokopeto issued server command: //expand 5 5
-[13:58:39] [Server thread/INFO]: lokopeto issued server command: //expand 5 5
-[13:58:41] [Server thread/INFO]: lokopeto issued server command: //expand 5 5
-[13:59:16] [Server thread/INFO]: lokopeto issued server command: //expand -1 -1
-[13:59:19] [Server thread/INFO]: lokopeto issued server command: //expand -1 -1
-[13:59:35] [Server thread/INFO]: lokopeto issued server command: //expand 8
-[13:59:43] [Server thread/INFO]: lokopeto issued server command: //expand 8 8 8
-[13:59:57] [Server thread/INFO]: lokopeto issued server command: //expand 8 8
-[13:59:59] [Server thread/INFO]: lokopeto issued server command: //expand 8 8
-[14:00:04] [Server thread/INFO]: lokopeto issued server command: //set
-[14:02:33] [Server thread/INFO]: lokopeto issued server command: //set oak_planks,dark_oak_planks
-[14:02:33] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightStarlightRelighterFactory as relighter factory.
-[14:02:43] [Server thread/INFO]: lokopeto issued server command: /undo
-[14:02:49] [Server thread/INFO]: lokopeto issued server command: //set oak_planks,dark_oak_planks
-[14:02:58] [Server thread/INFO]: lokopeto issued server command: /undo
-[14:04:40] [Server thread/INFO]: lokopeto issued server command: //set oak_planks
-[14:08:16] [Server thread/INFO]: lokopeto issued server command: //set oak_
-[14:08:25] [Server thread/INFO]: lokopeto issued server command: //set dark_oak_planks
-[14:12:36] [Server thread/INFO]: lokopeto issued server command: //sel
-[14:21:52] [Server thread/INFO]: lokopeto issued server command: //set dark_oak_planks
-[14:21:55] [Server thread/INFO]: lokopeto issued server command: //sel
-[14:22:52] [Server thread/INFO]: lokopeto issued server command: //set white_stained_glass
-[14:22:57] [Server thread/INFO]: lokopeto issued server command: //sel
-[14:36:06] [Server thread/INFO]: lokopeto issued server command: /give lokopeto minecraft:debug_stick
-[14:36:06] [Server thread/INFO]: [lokopeto: Gave 1 [Debug Stick] to lokopeto]
-[14:47:15] [Server thread/INFO]: lokopeto lost connection: Disconnected
-[14:47:15] [Server thread/INFO]: lokopeto left the game
-[14:47:18] [Server thread/INFO]: Stopping the server
-[14:47:18] [Server thread/INFO]: Stopping server
-[14:47:18] [Server thread/INFO]: [Depenizen] Disabling Depenizen v2.1.0 (build 845)
-[14:47:18] [Server thread/INFO]: [Denizen]  v1.2.8-SNAPSHOT (build 1795-REL) disabled.
-[14:47:18] [Server thread/INFO]: [goBrush] Disabling goBrush v3.8.0-62
-[14:47:18] [Server thread/INFO]: [NoBlackSky] Disabling NoBlackSky v2.10
-[14:47:18] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
-[14:47:18] [Server thread/INFO]: [Skript] Disabling Skript v2.7.0
-[14:47:18] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
-[14:47:18] [Server thread/INFO]: [Denizen] Disabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
-[14:47:18] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
-[14:47:18] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:47:18] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.32-SNAPSHOT (build 3203)
-[14:47:18] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
-[14:47:18] [Server thread/INFO]: Saving players
-[14:47:18] [Server thread/INFO]: Saving worlds
-[14:47:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:47:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:47:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:47:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:47:19] [Server thread/INFO]: [ChunkHolderManager] Saved 1471 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 1,12s
-[14:47:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:47:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:47:20] [Server thread/INFO]: Flushing Chunk IO
-[14:47:20] [Server thread/INFO]: Closing Thread Pool
-[14:47:20] [Server thread/INFO]: Closing Server
+[01:05:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[01:05:32] [Server thread/INFO]: Default game type: SURVIVAL
+[01:05:32] [Server thread/INFO]: Generating keypair
+[01:05:32] [Server console handler/WARN]: [org.jline] Failed to load history
+java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:181) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.lambda$load$0(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.jline.reader.impl.history.DefaultHistory.load(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.attach(DefaultHistory.java:69) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:603) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-183]
+[01:05:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:05:32] [Server thread/INFO]: Using default channel type
+[01:05:32] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:05:32] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loading 2 libraries... please wait
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-sync\4.8.1\mongodb-driver-sync-4.8.1.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\mongodb\bson\4.8.1\bson-4.8.1.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\mongodb\mongodb-driver-core\4.8.1\mongodb-driver-core-4.8.1.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\mongodb\bson-record-codec\4.8.1\bson-record-codec-4.8.1.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\org\json\json\20220320\json-20220320.jar
+[01:05:33] [Server thread/INFO]: [SpigotLibraryLoader] [Denizen] Loaded library E:\Servidores de minecraft\Server mine 2\reviva\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+[01:05:33] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[01:05:35] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.32-SNAPSHOT (build 3203)
+[01:05:35] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[01:05:35] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
+[01:05:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@de0e4d4]
+[01:05:36] [Server thread/INFO]: [Denizen] Loading server plugin Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[01:05:36] [Server thread/INFO]: [Sentinel] Loading server plugin Sentinel v2.8.0-SNAPSHOT (build 508)
+[01:05:36] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.7.0
+[01:05:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[01:05:36] [Server thread/INFO]: [NoBlackSky] Loading server plugin NoBlackSky v2.10
+[01:05:36] [Server thread/INFO]: [NoBlackSky] §aDetected 1.20.1 server version
+[01:05:36] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[01:05:36] [Server thread/INFO]: [goBrush] Loading server plugin goBrush v3.8.0-62
+[01:05:36] [Server thread/INFO]: [Depenizen] Loading server plugin Depenizen v2.1.0 (build 845)
+[01:05:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:05:36] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[01:05:36] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[01:05:36] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[01:05:36] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
+[01:05:36] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[01:05:36] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[01:05:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:05:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:05:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[01:05:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:05:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:05:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:05:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:05:37] [Server thread/INFO]: Preparing level "world"
+[01:05:37] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[01:05:37] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[01:05:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:05:38] [Server thread/INFO]: Time elapsed: 230 ms
+[01:05:38] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3203)
+[01:05:38] [Server thread/INFO]: [Citizens] Loading external libraries
+[01:05:39] [Server thread/INFO]: [Citizens] No translation for system language (pt_BR): defaulting to English
+[01:05:39] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 2 build(s) out of date.
+You are running build 558, the latest version is build 560.
+Update at https://www.spigotmc.org/resources/13932/
+[01:05:39] [Server thread/INFO]: [Denizen] Enabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[01:05:39] [Server thread/INFO]: +> [DenizenCore] Initializing Denizen Core v1.91.0-SNAPSHOT (Build 1355), impl for Spigot v1.2.8-SNAPSHOT (build 1795-REL) 
+[01:05:40] [Server thread/INFO]: +> [Denizen] Running on java version: 17.0.4 
+[01:05:40] [Server thread/INFO]: +> [Denizen] Running on fully supported Java 17. 
+[01:05:40] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[01:05:40] [Server thread/INFO]: +> [Denizen]  Denizen  scriptable minecraft 
+[01:05:40] [Server thread/INFO]: +> [Denizen]  
+[01:05:40] [Server thread/INFO]: +> [Denizen] by: The DenizenScript team 
+[01:05:40] [Server thread/INFO]: +> [Denizen] Chat with us at: https://discord.gg/Q6pZGSR 
+[01:05:40] [Server thread/INFO]: +> [Denizen] Or learn more at: https://denizenscript.com 
+[01:05:40] [Server thread/INFO]: +> [Denizen] version: 1.2.8-SNAPSHOT (build 1795-REL) 
+[01:05:40] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[01:05:40] [Server thread/INFO]: +> [TriggerRegistry] Loaded 4 core triggers 
+[01:05:41] [Server thread/INFO]: +> [PaperModule] Loading Paper support module... 
+[01:05:41] [Server thread/INFO]: +> [Denizen] Loaded 148 core commands and 29 core object types, at 2051ms from start. 
+[01:05:41] [Server thread/INFO]: +> [ScriptRegistry] Loading 1 script files... 
+[01:05:41] [Server thread/INFO]: +> [DenizenCore] Scripts loaded! File load took 10ms, processing 11ms. 
+[01:05:41] [Server thread/INFO]: +> [Denizen] Final full init took 2124ms. 
+[01:05:41] [Server thread/INFO]: [Sentinel] Enabling Sentinel v2.8.0-SNAPSHOT (build 508)
+[01:05:41] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[01:05:41] [Server thread/INFO]: [Sentinel] Running on java version: 17.0.4
+[01:05:41] [Server thread/INFO]: [Sentinel] Sentinel loaded on a fully supported Minecraft version. If you encounter any issues or need to ask a question, please join our Discord at https://discord.gg/Q6pZGSR and post in the '#sentinel' channel.
+[01:05:41] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[01:05:41] [Server thread/INFO]: [Skript] Enabling Skript v2.7.0
+[01:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[01:05:50] [Server thread/INFO]: [Skript] Loaded 150750 aliases in 8434ms
+[01:05:50] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[01:05:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[01:05:51] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[01:05:51] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:05:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:05:51] [Server thread/INFO]: [NoBlackSky] Enabling NoBlackSky v2.10
+[01:05:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[01:05:51] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:05:51] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:05:51] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[01:05:51] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[01:05:51] [Server thread/INFO]: [VoidGen] Generator settings "NORMAL" syntax is not valid. Using default values:
+[01:05:51] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[01:05:51] [Server thread/INFO]: Preparing start region for dimension minecraft:jogo
+[01:05:52] [Server thread/INFO]: Time elapsed: 327 ms
+[01:05:52] [Server thread/INFO]: [VoidGen] Generator settings "NORMAL" syntax is not valid. Using default values:
+[01:05:52] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[01:05:52] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[01:05:52] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:05:52] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:05:52] [Server thread/INFO]: [goBrush] Enabling goBrush v3.8.0-62
+[01:05:53] [Server thread/INFO]: [Depenizen] Enabling Depenizen v2.1.0 (build 845)
+[01:05:53] [Server thread/INFO]: +> [Depenizen] Depenizen loading... 
+[01:05:53] [Server thread/INFO]: +> [Depenizen] Loaded bridge for 'WorldEdit'! 
+[01:05:53] [Server thread/INFO]: +> [Depenizen] Loaded bridge for 'Sentinel'! 
+[01:05:53] [Server thread/INFO]: +> [Depenizen] Depenizen loaded! 2 plugin bridge(s) loaded (of 42 available) 
+[01:05:54] [Server thread/INFO]: Running delayed init tasks
+[01:05:54] [Server thread/INFO]: [Skript] Loading variables...
+[01:05:54] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[01:05:54] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[01:05:54] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[01:05:54] [Server thread/INFO]: [Skript] Finished loading.
+[01:05:54] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[01:05:54] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<server...' with '(Base-Object)', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<location[0,0,8,0,180,jogo]...' with 'l@0,0,8,0,180,jogo', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<location[0,0,-8,0,0,jogo]...' with 'l@0,0,-8,jogo', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<location[8,0,0,0,90,jogo]...' with 'l@8,0,0,0,90,jogo', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<location[-8,0,0,0,-90,jogo]...' with 'l@-8,0,0,0,270,jogo', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<server...' with '(Base-Object)', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled tag <location[0.5,65,0.5,jogo]> with 'l@0.5,65,0.5,jogo', and cached result. 
+[01:05:54] [Server thread/INFO]: +> [ScriptEvent] Processed 3 script event paths. 
+[01:05:54] [Server thread/INFO]: +> [Denizen] +-------------------------+ 
+[01:05:54] [Server thread/INFO]: Running script event 'ServerStart', event='on server start' for script 'LOADSCHEM' 
+[01:05:54] [Server thread/INFO]: Starting InstantQueue 'LOADSCHEM_0_KnowSpigot'... 
+[01:05:54] [Server thread/INFO]: +- Queue 'LOADSCHEM_0_KnowSpigot' Executing: (line 5) schematic load name:lobby ---------+ 
+[01:05:54] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='LOAD'  name='lobby'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:05:54] [Server thread/INFO]: +- Queue 'LOADSCHEM_0_KnowSpigot' Executing: (line 6) schematic load name:florest ---------+ 
+[01:05:54] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='LOAD'  name='florest'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:05:54] [Server thread/INFO]: Completing queue 'LOADSCHEM_0_KnowSpigot' in 116ms. 
+[01:05:54] [Server thread/INFO]: +> [Denizen] Denizen fully loaded at: 2023/09/19 01:05:39 
+[01:05:54] [Server thread/INFO]: Done (22.550s)! For help, type "help"
+[01:05:54] [Server thread/INFO]: Timings Reset
+[01:06:02] [User Authenticator #0/INFO]: UUID of player lokopeto is d09f8eb8-ae7d-3caa-bb58-e29486b30db7
+[01:06:02] [Server thread/INFO]: lokopeto joined the game
+[01:06:02] [Server thread/INFO]: lokopeto[/127.0.0.1:50094] logged in with entity id 1 at ([jogo]0.5, 65.0, 6.870025883157375)
+[01:06:08] [Server thread/INFO]: lokopeto issued server command: /começar
+[01:06:08] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled tag <location[-8,-64,-8,jogo]> with 'l@-8,-64,-8,jogo', and cached result. 
+[01:06:08] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<server...' with '(Base-Object)', and cached result. 
+[01:06:08] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled tag <location[0.5,65,0.5]> with 'l@0.5,65,0.5', and cached result. 
+[01:06:08] [Server thread/INFO]: Starting InstantQueue 'COMECAR_1_WithRenew' with player 'lokopeto'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 15) schematic paste name:LOBBY <location[-8,-64,-8,jogo]> ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='LOBBY'  location='l@-8, -64, -8, jogo'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 16) teleport <server.players> <location[0.5,65,0.5,jogo]> ---------+ 
+[01:06:08] [Server thread/INFO]: Filled tag <server.players> with 'li@ (Size 2): p@169a5b65-b284-3f4b-93c7-5ef96f65df41 (ovelha_maria) | p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'TELEPORT': entities='[p@169a5b65-b284-3f4b-93c7-5ef96f65df41, p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7]'  location='l@0.5, 65, 0.5, jogo'  cause='PLUGIN'  relative='false'   
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 18) flag server expandloc:<location[0.5,65,0.5]> ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@0.5,65,0.5) 
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 19) flag server expandlastloc:<location[0.5,65,0.5]> ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@0.5,65,0.5) 
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 20) flag server expandlast:! ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:CLEAR:null) 
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 22) run removexpan ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:06:08] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_2_SpringerUnlock' with player 'lokopeto'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'REMOVEXPAN_2_SpringerUnlock' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:06:08] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_2_SpringerUnlock' while executing command 'FOREACH' in file '\scripts\mapas.dsc' on line '59' with player 'lokopeto'!
+                 Error Message: No flag named 'expand' (did you forget to set it, or has it already expired? Or did you forget a 'has_flag' check?) 
+[01:06:08] [Server thread/INFO]: Additional Error Info: Tag <server.flag[expand]> is invalid! 
+[01:06:08] [Server thread/INFO]: Additional Error Info: Unfilled or unrecognized sub-tag(s) 'flag[expand]' for tag <server.flag[expand]>! 
+[01:06:08] [Server thread/INFO]: Additional Error Info: The returned value from initial tag fragment 'server' was: '(Base-Object)'. 
+[01:06:08] [Server thread/INFO]: Additional Error Info: Almost matched but failed (possibly bad input?): flag 
+[01:06:08] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 1): server.flag[expand]'  as='expandenty'   
+[01:06:08] [Server thread/INFO]: +- Queue 'REMOVEXPAN_2_SpringerUnlock' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:08] [Server thread/INFO]: Filled tag <[expandenty]> with 'server.flag[expand]'. 
+[01:06:08] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_2_SpringerUnlock' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: 'server.flag[expand]' is an unknown argument! Did you forget quotes, or did you mess up the command syntax? 
+[01:06:08] [Server thread/INFO]: +> [Argument] Command usage: remove [<entity>|...] (world:<world>) 
+[01:06:08] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_2_SpringerUnlock' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: Woah! Invalid arguments were specified!
+                 Must specify entity/entities! 
+[01:06:08] [Server thread/INFO]: +> [CommandExecutor] Usage: remove [<entity>|...] (world:<world>) 
+[01:06:08] [Server thread/INFO]: +> [CommandExecutor] (Attempted: REMOVE <[expandenty]>) 
+[01:06:08] [Server thread/INFO]: +---------------------+ 
+[01:06:08] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:08] [Server thread/INFO]: +- Queue 'REMOVEXPAN_2_SpringerUnlock' Executing: (line 62) flag server expand:! ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:06:08] [Server thread/INFO]: +- Queue 'REMOVEXPAN_2_SpringerUnlock' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:06:08] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:06:08] [Server thread/INFO]: Completing queue 'REMOVEXPAN_2_SpringerUnlock' in 36ms. 
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 24) wait 2t ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.1s (0.1s)'  mode='DELTA'   
+[01:06:08] [Server thread/INFO]: Forcing queue 'COMECAR_1_WithRenew' into a timed queue... 
+[01:06:08] [Server thread/INFO]: +- Queue 'COMECAR_1_WithRenew' Executing: (line 26) run expanspawn ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'RUN': script='s@expanspawn (TASK)'   
+[01:06:08] [Server thread/INFO]: Starting InstantQueue 'EXPANSPAWN_4_PrayersFullwall' with player 'lokopeto'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 70) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth ---------+ 
+[01:06:08] [Server thread/INFO]: ...remembering this script entry as 'expandsouth'! 
+[01:06:08] [Server thread/INFO]: +> [Static Tag Processing] Pre-Filled partial tag '<server...' with '(Base-Object)', and cached result. 
+[01:06:08] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:08] [Server thread/INFO]: Filled tag <location[0,0,8,0,180,jogo].add[l@0.5,65,0.5]> with 'l@0.5, 65, 8.5, 0, 180, jogo'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true]'  location='l@0.5, 65, 8.5, 0, 180, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:08] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 71) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth ---------+ 
+[01:06:08] [Server thread/INFO]: ...remembering this script entry as 'expandnorth'! 
+[01:06:08] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:08] [Server thread/INFO]: Filled tag <location[0,0,-8,0,0,jogo].add[l@0.5,65,0.5]> with 'l@0.5, 65, -7.5, jogo'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true]'  location='l@0.5, 65, -7.5, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:08] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 72) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast ---------+ 
+[01:06:08] [Server thread/INFO]: ...remembering this script entry as 'expandeast'! 
+[01:06:08] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:08] [Server thread/INFO]: Filled tag <location[8,0,0,0,90,jogo].add[l@0.5,65,0.5]> with 'l@8.5, 65, 0.5, 0, 90, jogo'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true]'  location='l@8.5, 65, 0.5, 0, 90, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:08] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 73) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest ---------+ 
+[01:06:08] [Server thread/INFO]: ...remembering this script entry as 'expandwest'! 
+[01:06:08] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:08] [Server thread/INFO]: Filled tag <location[-8,0,0,0,-90,jogo].add[l@0.5,65,0.5]> with 'l@-7.5, 65, 0.5, 0, 270, jogo'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true]'  location='l@-7.5, 65, 0.5, 0, 270, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:08] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 75) flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> ---------+ 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul)'. 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte)'. 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste)'. 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:SPLIT:e@5da52e11-dc55-4be9-b849-3433f3162daf/armor_stand|e@051a3617-9979-45a1-8af0-079e88b7f611/armor_stand|e@7b35e3b8-6703-468b-9090-2374b5983fa2/armor_stand|e@cdf78be3-9f6d-4618-9c52-546f5250e527/armor_stand) 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 77) wait 1t ---------+ 
+[01:06:08] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.05s (0.05s)'  mode='DELTA'   
+[01:06:08] [Server thread/INFO]: Forcing queue 'EXPANSPAWN_4_PrayersFullwall' into a timed queue... 
+[01:06:08] [Server thread/INFO]: Completing queue 'COMECAR_1_WithRenew' in 239ms. 
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 79) foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa ---------+ 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul)'. 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte)'. 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste)'. 
+[01:06:08] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'. 
+[01:06:08] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul) | e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte) | e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste) | e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'  
+                 as='expandcompa'   
+[01:06:08] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:09] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:09] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:09] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, 8, jogo'. 
+[01:06:09] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@0,65,8,jogo ... false 
+[01:06:09] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:09] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:09] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:09] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:09] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:09] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, -8, jogo'. 
+[01:06:09] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@0,65,-8,jogo ... false 
+[01:06:09] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:09] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:09] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:09] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:09] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:09] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@8, 65, 0, jogo'. 
+[01:06:09] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@8,65,0,jogo ... false 
+[01:06:09] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:09] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:09] [Server thread/INFO]: +- Queue 'EXPANSPAWN_4_PrayersFullwall' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:09] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:09] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:09] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@-8, 65, 0, jogo'. 
+[01:06:09] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@-8,65,0,jogo ... false 
+[01:06:09] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:09] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:09] [Server thread/INFO]: Completing queue 'EXPANSPAWN_4_PrayersFullwall' in 96ms. 
+[01:06:10] [Server thread/INFO]: Running script event 'PlayerRightClicksEntity', event='on player right clicks armor_stand' for script 'EXPANDROTATION' 
+[01:06:10] [Server thread/INFO]: Starting InstantQueue 'EXPANDROTATION_6_FdaGives' with player 'lokopeto'... 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 32) if <server.flag[expand]> contains <context.entity> ---------+ 
+[01:06:10] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:10] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul) | e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte) | e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste) | e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'. 
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity> with 'e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul)'. 
+[01:06:10] [Server thread/INFO]: Comparing if li@e@5da52e11-dc55-4be9-b849-3433f3162daf/armor_stand|e@051a3617-9979-45a1-8af0-079e88b7f611/armor_stand|e@7b35e3b8-6703-468b-9090-2374b5983fa2/armor_stand|e@cdf78be3-9f6d-4618-9c52-546f5250e527/armor_stand| CONTAINS e@5da52e11-dc55-4be9-b849-3433f3162daf/armor_stand ... true 
+[01:06:10] [Server thread/INFO]: If command passed, running block. 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 33) if Sul|Norte|Leste|Oeste contains <context.entity.custom_name> ---------+ 
+[01:06:10] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Sul'. 
+[01:06:10] [Server thread/INFO]: Comparing if Sul|Norte|Leste|Oeste CONTAINS Sul ... true 
+[01:06:10] [Server thread/INFO]: If command passed, running block. 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 35) determine cancelled passively ---------+ 
+[01:06:10] [Server thread/INFO]: +> Executing 'DETERMINE': outcome='cancelled'  passively='true'  Queue='q@EXPANDROTATION_6_FdaGives'   
+[01:06:10] [Server thread/INFO]: Event cancelled! 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 37) flag server expandloc:<context.entity.location.backward[9]> ---------+ 
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity.location.backward[9]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:06:10] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@0.5000000000000011,65,17.5,0,180,jogo) 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 38) flag server expandlastloc:<context.entity.location.backward[1]> ---------+ 
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity.location.backward[1]> with 'l@0.5000000000000001, 65, 9.5, 0, 180, jogo'. 
+[01:06:10] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@0.5000000000000001,65,9.5,0,180,jogo) 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 39) flag server expandlast:<context.entity.custom_name> ---------+ 
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Sul'. 
+[01:06:10] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:SET:Sul) 
+[01:06:10] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 41) schematic paste name:florest <context.entity.location.backward[17].below[129].right[8]> angle:<context.entity.location.yaw> ---------+ 
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity.location.backward[17].below[129].right[8]> with 'l@8.500000000000002, -64, 25.5, 0, 180, jogo'. 
+[01:06:10] [Server thread/INFO]: Filled tag <context.entity.location.yaw> with '180'. 
+[01:06:10] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='florest'  location='l@8, -64, 25, jogo'  angle='180'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:06:11] [Server thread/INFO]: +- Queue 'EXPANDROTATION_6_FdaGives' Executing: (line 43) run removexpan ---------+ 
+[01:06:11] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:06:11] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_7_AlbertTwenty' with player 'lokopeto'... 
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:06:11] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul) | e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte) | e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste) | e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'. 
+[01:06:11] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul) | e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte) | e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste) | e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'  
+                 as='expandenty'   
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:11] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul)'. 
+[01:06:11] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 5da52e11-dc55-4be9-b849-3433f3162daf(ARMOR_STAND/Sul)]'   
+[01:06:11] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:11] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte)'. 
+[01:06:11] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 051a3617-9979-45a1-8af0-079e88b7f611(ARMOR_STAND/Norte)]'   
+[01:06:11] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:11] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste)'. 
+[01:06:11] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 7b35e3b8-6703-468b-9090-2374b5983fa2(ARMOR_STAND/Leste)]'   
+[01:06:11] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:11] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)'. 
+[01:06:11] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ cdf78be3-9f6d-4618-9c52-546f5250e527(ARMOR_STAND/Oeste)]'   
+[01:06:11] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 62) flag server expand:! ---------+ 
+[01:06:11] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:06:11] [Server thread/INFO]: +- Queue 'REMOVEXPAN_7_AlbertTwenty' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:06:11] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:11] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:06:11] [Server thread/INFO]: Completing queue 'REMOVEXPAN_7_AlbertTwenty' in 31ms. 
+[01:06:11] [Server thread/INFO]: Completing queue 'EXPANDROTATION_6_FdaGives' in 187ms. 
+[01:06:22] [Server thread/INFO]: lokopeto issued server command: /ex run EXPANSPAWN
+[01:06:22] [Server thread/INFO]: Starting InstantQueue 'EXCOMMAND_8_MeatCj' with player 'lokopeto'... 
+[01:06:22] [Server thread/INFO]: +- Queue 'EXCOMMAND_8_MeatCj' Executing: (line 1) run EXPANSPAWN ---------+ 
+[01:06:22] [Server thread/INFO]: +> Executing 'RUN': script='s@expanspawn (TASK)'   
+[01:06:22] [Server thread/INFO]: Starting InstantQueue 'EXPANSPAWN_9_GiantBuilds' with player 'lokopeto'... 
+[01:06:22] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 70) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth ---------+ 
+[01:06:22] [Server thread/INFO]: ...remembering this script entry as 'expandsouth'! 
+[01:06:22] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:06:22] [Server thread/INFO]: Filled tag <location[0,0,8,0,180,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@0.5000000000000011, 65, 25.5, 0, 180, jogo'. 
+[01:06:22] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true]'  location='l@0.5000000000000011, 65, 25.5, 0, 180, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:22] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:22] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 71) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth ---------+ 
+[01:06:22] [Server thread/INFO]: ...remembering this script entry as 'expandnorth'! 
+[01:06:22] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:06:22] [Server thread/INFO]: Filled tag <location[0,0,-8,0,0,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@0.5000000000000011, 65, 9.5, jogo'. 
+[01:06:23] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true]'  location='l@0.5000000000000011, 65, 9.5, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:23] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 72) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast ---------+ 
+[01:06:23] [Server thread/INFO]: ...remembering this script entry as 'expandeast'! 
+[01:06:23] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:06:23] [Server thread/INFO]: Filled tag <location[8,0,0,0,90,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@8.500000000000002, 65, 17.5, 0, 90, jogo'. 
+[01:06:23] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true]'  location='l@8.500000000000002, 65, 17.5, 0, 90, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:23] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 73) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest ---------+ 
+[01:06:23] [Server thread/INFO]: ...remembering this script entry as 'expandwest'! 
+[01:06:23] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:06:23] [Server thread/INFO]: Filled tag <location[-8,0,0,0,-90,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@-7.499999999999999, 65, 17.5, 0, 270, jogo'. 
+[01:06:23] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true]'  location='l@-7.499999999999999, 65, 17.5, 0, 270, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:23] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 75) flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> ---------+ 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul)'. 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 3ef570fa-f61b-4b5d-a53f-80166b603841(ARMOR_STAND/Norte)'. 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste)'. 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'. 
+[01:06:23] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:SPLIT:e@573617ff-bb06-4e81-955d-470b4ffbc6d1/armor_stand|e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand|e@13974df2-8629-4233-b59f-621a849390c7/armor_stand|e@a7409c38-80f6-480a-9b28-d37711e6ddf7/armor_stand) 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 77) wait 1t ---------+ 
+[01:06:23] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.05s (0.05s)'  mode='DELTA'   
+[01:06:23] [Server thread/INFO]: Forcing queue 'EXPANSPAWN_9_GiantBuilds' into a timed queue... 
+[01:06:23] [Server thread/INFO]: Completing queue 'EXCOMMAND_8_MeatCj' in 35ms. 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 79) foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa ---------+ 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul)'. 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 3ef570fa-f61b-4b5d-a53f-80166b603841(ARMOR_STAND/Norte)'. 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste)'. 
+[01:06:23] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'. 
+[01:06:23] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul) | e@ 3ef570fa-f61b-4b5d-a53f-80166b603841(ARMOR_STAND/Norte) | e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste) | e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'  
+                 as='expandcompa'   
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:23] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:23] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:06:23] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, 25, jogo'. 
+[01:06:23] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@0,65,25,jogo ... false 
+[01:06:23] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:23] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:23] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:23] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:06:23] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, 9, jogo'. 
+[01:06:23] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@0,65,9,jogo ... true 
+[01:06:23] [Server thread/INFO]: If command passed, running block. 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 81) remove <[expandcompa]> ---------+ 
+[01:06:23] [Server thread/INFO]: Filled tag <[expandcompa]> with 'e@ 3ef570fa-f61b-4b5d-a53f-80166b603841(ARMOR_STAND/Norte)'. 
+[01:06:23] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 3ef570fa-f61b-4b5d-a53f-80166b603841(ARMOR_STAND/Norte)]'   
+[01:06:23] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:23] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:23] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:06:23] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@8, 65, 17, jogo'. 
+[01:06:23] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@8,65,17,jogo ... false 
+[01:06:23] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:23] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:23] [Server thread/INFO]: +- Queue 'EXPANSPAWN_9_GiantBuilds' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:23] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:23] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:06:23] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@-8, 65, 17, jogo'. 
+[01:06:23] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@-8,65,17,jogo ... false 
+[01:06:23] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:23] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:23] [Server thread/INFO]: Completing queue 'EXPANSPAWN_9_GiantBuilds' in 53ms. 
+[01:06:25] [Server thread/INFO]: Running script event 'PlayerRightClicksEntity', event='on player right clicks armor_stand' for script 'EXPANDROTATION' 
+[01:06:25] [Server thread/INFO]: Starting InstantQueue 'EXPANDROTATION_11_DtsHuman' with player 'lokopeto'... 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 32) if <server.flag[expand]> contains <context.entity> ---------+ 
+[01:06:25] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:25] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul) | e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand | e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste) | e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'. 
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity> with 'e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste)'. 
+[01:06:25] [Server thread/INFO]: Comparing if li@e@573617ff-bb06-4e81-955d-470b4ffbc6d1/armor_stand|e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand|e@13974df2-8629-4233-b59f-621a849390c7/armor_stand|e@a7409c38-80f6-480a-9b28-d37711e6ddf7/armor_stand| CONTAINS e@13974df2-8629-4233-b59f-621a849390c7/armor_stand ... true 
+[01:06:25] [Server thread/INFO]: If command passed, running block. 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 33) if Sul|Norte|Leste|Oeste contains <context.entity.custom_name> ---------+ 
+[01:06:25] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Leste'. 
+[01:06:25] [Server thread/INFO]: Comparing if Sul|Norte|Leste|Oeste CONTAINS Leste ... true 
+[01:06:25] [Server thread/INFO]: If command passed, running block. 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 35) determine cancelled passively ---------+ 
+[01:06:25] [Server thread/INFO]: +> Executing 'DETERMINE': outcome='cancelled'  passively='true'  Queue='q@EXPANDROTATION_11_DtsHuman'   
+[01:06:25] [Server thread/INFO]: Event cancelled! 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 37) flag server expandloc:<context.entity.location.backward[9]> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity.location.backward[9]> with 'l@17.5, 65, 17.5, 0, 90, jogo'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@17.5,65,17.5,0,90,jogo) 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 38) flag server expandlastloc:<context.entity.location.backward[1]> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity.location.backward[1]> with 'l@9.500000000000002, 65, 17.5, 0, 90, jogo'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@9.500000000000002,65,17.5,0,90,jogo) 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 39) flag server expandlast:<context.entity.custom_name> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Leste'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:SET:Leste) 
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 41) schematic paste name:florest <context.entity.location.backward[17].below[129].right[8]> angle:<context.entity.location.yaw> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity.location.backward[17].below[129].right[8]> with 'l@25.5, -64, 9.5, 0, 90, jogo'. 
+[01:06:25] [Server thread/INFO]: Filled tag <context.entity.location.yaw> with '90'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='florest'  location='l@25, -64, 9, jogo'  angle='90'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:06:25] [Server thread/INFO]: +- Queue 'EXPANDROTATION_11_DtsHuman' Executing: (line 43) run removexpan ---------+ 
+[01:06:25] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:06:25] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_12_MwthornOrdering' with player 'lokopeto'... 
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul) | e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand | e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste) | e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul) | e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand | e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste) | e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'  as='expandenty'   
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul)'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 573617ff-bb06-4e81-955d-470b4ffbc6d1(ARMOR_STAND/Sul)]'   
+[01:06:25] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@3ef570fa-f61b-4b5d-a53f-80166b603841/armor_stand]'   
+[01:06:25] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_12_MwthornOrdering' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: Tried to remove already-removed entity. 
+[01:06:25] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste)'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 13974df2-8629-4233-b59f-621a849390c7(ARMOR_STAND/Leste)]'   
+[01:06:25] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ a7409c38-80f6-480a-9b28-d37711e6ddf7(ARMOR_STAND/Oeste)]'   
+[01:06:25] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 62) flag server expand:! ---------+ 
+[01:06:25] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:06:25] [Server thread/INFO]: +- Queue 'REMOVEXPAN_12_MwthornOrdering' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:06:25] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:25] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:06:25] [Server thread/INFO]: Completing queue 'REMOVEXPAN_12_MwthornOrdering' in 18ms. 
+[01:06:25] [Server thread/INFO]: Completing queue 'EXPANDROTATION_11_DtsHuman' in 140ms. 
+[01:06:30] [Server thread/INFO]: lokopeto issued server command: /gamemode creative
+[01:06:30] [Server thread/INFO]: [lokopeto: Set own game mode to Creative Mode]
+[01:06:40] [Server thread/INFO]: lokopeto issued server command: /ex run EXPANSPAWN
+[01:06:40] [Server thread/INFO]: Starting InstantQueue 'EXCOMMAND_13_TagActors' with player 'lokopeto'... 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXCOMMAND_13_TagActors' Executing: (line 1) run EXPANSPAWN ---------+ 
+[01:06:40] [Server thread/INFO]: +> Executing 'RUN': script='s@expanspawn (TASK)'   
+[01:06:40] [Server thread/INFO]: Starting InstantQueue 'EXPANSPAWN_14_Hades5514Morphan' with player 'lokopeto'... 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 70) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth ---------+ 
+[01:06:40] [Server thread/INFO]: ...remembering this script entry as 'expandsouth'! 
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@17.5, 65, 17.5, 0, 90, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <location[0,0,8,0,180,jogo].add[l@17.5,65,17.5,0,90,jogo]> with 'l@17.5, 65, 25.5, 0, 180, jogo'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true]'  location='l@17.5, 65, 25.5, 0, 180, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:40] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 71) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth ---------+ 
+[01:06:40] [Server thread/INFO]: ...remembering this script entry as 'expandnorth'! 
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@17.5, 65, 17.5, 0, 90, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <location[0,0,-8,0,0,jogo].add[l@17.5,65,17.5,0,90,jogo]> with 'l@17.5, 65, 9.5, jogo'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true]'  location='l@17.5, 65, 9.5, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:40] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 72) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast ---------+ 
+[01:06:40] [Server thread/INFO]: ...remembering this script entry as 'expandeast'! 
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@17.5, 65, 17.5, 0, 90, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <location[8,0,0,0,90,jogo].add[l@17.5,65,17.5,0,90,jogo]> with 'l@25.5, 65, 17.5, 0, 90, jogo'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true]'  location='l@25.5, 65, 17.5, 0, 90, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:40] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 73) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest ---------+ 
+[01:06:40] [Server thread/INFO]: ...remembering this script entry as 'expandwest'! 
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@17.5, 65, 17.5, 0, 90, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <location[-8,0,0,0,-90,jogo].add[l@17.5,65,17.5,0,90,jogo]> with 'l@9.5, 65, 17.5, 0, 270, jogo'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true]'  location='l@9.5, 65, 17.5, 0, 270, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:40] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 75) flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> ---------+ 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul)'. 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte)'. 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste)'. 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ c7acbf87-4126-4c18-a555-41dedd7c43c8(ARMOR_STAND/Oeste)'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:SPLIT:e@847a9c6e-e103-4705-b764-2ffef6d3a7fb/armor_stand|e@9d6097d6-ee5f-4849-9670-4127c3164baf/armor_stand|e@87415ab2-095a-46f5-88ab-7c1b7ef1106c/armor_stand|e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand) 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 77) wait 1t ---------+ 
+[01:06:40] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.05s (0.05s)'  mode='DELTA'   
+[01:06:40] [Server thread/INFO]: Forcing queue 'EXPANSPAWN_14_Hades5514Morphan' into a timed queue... 
+[01:06:40] [Server thread/INFO]: Completing queue 'EXCOMMAND_13_TagActors' in 29ms. 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 79) foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa ---------+ 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul)'. 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte)'. 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste)'. 
+[01:06:40] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ c7acbf87-4126-4c18-a555-41dedd7c43c8(ARMOR_STAND/Oeste)'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul) | e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte) | e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste) | e@ c7acbf87-4126-4c18-a555-41dedd7c43c8(ARMOR_STAND/Oeste)'  
+                 as='expandcompa'   
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:40] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@9, 65, 17, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@17, 65, 25, jogo'. 
+[01:06:40] [Server thread/INFO]: Comparing if l@9,65,17,jogo EQUALS l@17,65,25,jogo ... false 
+[01:06:40] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:40] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:40] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@9, 65, 17, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@17, 65, 9, jogo'. 
+[01:06:40] [Server thread/INFO]: Comparing if l@9,65,17,jogo EQUALS l@17,65,9,jogo ... false 
+[01:06:40] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:40] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:40] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@9, 65, 17, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@25, 65, 17, jogo'. 
+[01:06:40] [Server thread/INFO]: Comparing if l@9,65,17,jogo EQUALS l@25,65,17,jogo ... false 
+[01:06:40] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:40] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:40] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:40] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@9, 65, 17, jogo'. 
+[01:06:40] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@9, 65, 17, jogo'. 
+[01:06:40] [Server thread/INFO]: Comparing if l@9,65,17,jogo EQUALS l@9,65,17,jogo ... true 
+[01:06:40] [Server thread/INFO]: If command passed, running block. 
+[01:06:40] [Server thread/INFO]: +- Queue 'EXPANSPAWN_14_Hades5514Morphan' Executing: (line 81) remove <[expandcompa]> ---------+ 
+[01:06:40] [Server thread/INFO]: Filled tag <[expandcompa]> with 'e@ c7acbf87-4126-4c18-a555-41dedd7c43c8(ARMOR_STAND/Oeste)'. 
+[01:06:40] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ c7acbf87-4126-4c18-a555-41dedd7c43c8(ARMOR_STAND/Oeste)]'   
+[01:06:40] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:40] [Server thread/INFO]: Completing queue 'EXPANSPAWN_14_Hades5514Morphan' in 43ms. 
+[01:06:49] [Server thread/INFO]: Running script event 'PlayerRightClicksEntity', event='on player right clicks armor_stand' for script 'EXPANDROTATION' 
+[01:06:49] [Server thread/INFO]: Starting InstantQueue 'EXPANDROTATION_16_OmanWw' with player 'lokopeto'... 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 32) if <server.flag[expand]> contains <context.entity> ---------+ 
+[01:06:49] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:49] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul) | e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte) | e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste) | e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand'. 
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity> with 'e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte)'. 
+[01:06:49] [Server thread/INFO]: Comparing if li@e@847a9c6e-e103-4705-b764-2ffef6d3a7fb/armor_stand|e@9d6097d6-ee5f-4849-9670-4127c3164baf/armor_stand|e@87415ab2-095a-46f5-88ab-7c1b7ef1106c/armor_stand|e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand| CONTAINS e@9d6097d6-ee5f-4849-9670-4127c3164baf/armor_stand ... true 
+[01:06:49] [Server thread/INFO]: If command passed, running block. 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 33) if Sul|Norte|Leste|Oeste contains <context.entity.custom_name> ---------+ 
+[01:06:49] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Norte'. 
+[01:06:49] [Server thread/INFO]: Comparing if Sul|Norte|Leste|Oeste CONTAINS Norte ... true 
+[01:06:49] [Server thread/INFO]: If command passed, running block. 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 35) determine cancelled passively ---------+ 
+[01:06:49] [Server thread/INFO]: +> Executing 'DETERMINE': outcome='cancelled'  passively='true'  Queue='q@EXPANDROTATION_16_OmanWw'   
+[01:06:49] [Server thread/INFO]: Event cancelled! 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 37) flag server expandloc:<context.entity.location.backward[9]> ---------+ 
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity.location.backward[9]> with 'l@17.5, 65, 0.5, jogo'. 
+[01:06:49] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@17.5,65,0.5,jogo) 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 38) flag server expandlastloc:<context.entity.location.backward[1]> ---------+ 
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity.location.backward[1]> with 'l@17.5, 65, 8.5, jogo'. 
+[01:06:49] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@17.5,65,8.5,jogo) 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 39) flag server expandlast:<context.entity.custom_name> ---------+ 
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Norte'. 
+[01:06:49] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:SET:Norte) 
+[01:06:49] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 41) schematic paste name:florest <context.entity.location.backward[17].below[129].right[8]> angle:<context.entity.location.yaw> ---------+ 
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity.location.backward[17].below[129].right[8]> with 'l@9.5, -64, -7.500000000000001, jogo'. 
+[01:06:49] [Server thread/INFO]: Filled tag <context.entity.location.yaw> with '0'. 
+[01:06:49] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='florest'  location='l@9, -64, -8, jogo'  angle='0'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:06:50] [Server thread/INFO]: +- Queue 'EXPANDROTATION_16_OmanWw' Executing: (line 43) run removexpan ---------+ 
+[01:06:50] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:06:50] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_17_PreviousIdentification' with player 'lokopeto'... 
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:06:50] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul) | e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte) | e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste) | e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand'. 
+[01:06:50] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul) | e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte) | e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste) | e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand'  as='expandenty'   
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:50] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul)'. 
+[01:06:50] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 847a9c6e-e103-4705-b764-2ffef6d3a7fb(ARMOR_STAND/Sul)]'   
+[01:06:50] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:50] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte)'. 
+[01:06:50] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 9d6097d6-ee5f-4849-9670-4127c3164baf(ARMOR_STAND/Norte)]'   
+[01:06:50] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:50] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste)'. 
+[01:06:50] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 87415ab2-095a-46f5-88ab-7c1b7ef1106c(ARMOR_STAND/Leste)]'   
+[01:06:50] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:50] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand'. 
+[01:06:50] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@c7acbf87-4126-4c18-a555-41dedd7c43c8/armor_stand]'   
+[01:06:50] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_17_PreviousIdentification' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: Tried to remove already-removed entity. 
+[01:06:50] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 62) flag server expand:! ---------+ 
+[01:06:50] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:06:50] [Server thread/INFO]: +- Queue 'REMOVEXPAN_17_PreviousIdentification' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:06:50] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:50] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:06:50] [Server thread/INFO]: Completing queue 'REMOVEXPAN_17_PreviousIdentification' in 13ms. 
+[01:06:50] [Server thread/INFO]: Completing queue 'EXPANDROTATION_16_OmanWw' in 56ms. 
+[01:06:55] [Server thread/INFO]: lokopeto issued server command: /começar
+[01:06:55] [Server thread/INFO]: Starting InstantQueue 'COMECAR_18_FutureStopped' with player 'lokopeto'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 15) schematic paste name:LOBBY <location[-8,-64,-8,jogo]> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='LOBBY'  location='l@-8, -64, -8, jogo'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 16) teleport <server.players> <location[0.5,65,0.5,jogo]> ---------+ 
+[01:06:55] [Server thread/INFO]: Filled tag <server.players> with 'li@ (Size 2): p@169a5b65-b284-3f4b-93c7-5ef96f65df41 (ovelha_maria) | p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'TELEPORT': entities='[p@169a5b65-b284-3f4b-93c7-5ef96f65df41, p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7]'  location='l@0.5, 65, 0.5, jogo'  cause='PLUGIN'  relative='false'   
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 18) flag server expandloc:<location[0.5,65,0.5]> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@0.5,65,0.5) 
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 19) flag server expandlastloc:<location[0.5,65,0.5]> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@0.5,65,0.5) 
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 20) flag server expandlast:! ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:CLEAR:null) 
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 22) run removexpan ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:06:55] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_19_DefenseRely' with player 'lokopeto'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'REMOVEXPAN_19_DefenseRely' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:06:55] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_19_DefenseRely' while executing command 'FOREACH' in file '\scripts\mapas.dsc' on line '59' with player 'lokopeto'!
+                 Error Message: No flag named 'expand' (did you forget to set it, or has it already expired? Or did you forget a 'has_flag' check?) 
+[01:06:55] [Server thread/INFO]: Additional Error Info: Tag <server.flag[expand]> is invalid! 
+[01:06:55] [Server thread/INFO]: Additional Error Info: Unfilled or unrecognized sub-tag(s) 'flag[expand]' for tag <server.flag[expand]>! 
+[01:06:55] [Server thread/INFO]: Additional Error Info: The returned value from initial tag fragment 'server' was: '(Base-Object)'. 
+[01:06:55] [Server thread/INFO]: Additional Error Info: Almost matched but failed (possibly bad input?): flag 
+[01:06:55] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 1): server.flag[expand]'  as='expandenty'   
+[01:06:55] [Server thread/INFO]: +- Queue 'REMOVEXPAN_19_DefenseRely' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:55] [Server thread/INFO]: Filled tag <[expandenty]> with 'server.flag[expand]'. 
+[01:06:55] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_19_DefenseRely' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: 'server.flag[expand]' is an unknown argument! Did you forget quotes, or did you mess up the command syntax? 
+[01:06:55] [Server thread/INFO]: +> [Argument] Command usage: remove [<entity>|...] (world:<world>) 
+[01:06:55] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_19_DefenseRely' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: Woah! Invalid arguments were specified!
+                 Must specify entity/entities! 
+[01:06:55] [Server thread/INFO]: +> [CommandExecutor] Usage: remove [<entity>|...] (world:<world>) 
+[01:06:55] [Server thread/INFO]: +> [CommandExecutor] (Attempted: REMOVE <[expandenty]>) 
+[01:06:55] [Server thread/INFO]: +---------------------+ 
+[01:06:55] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:55] [Server thread/INFO]: +- Queue 'REMOVEXPAN_19_DefenseRely' Executing: (line 62) flag server expand:! ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:06:55] [Server thread/INFO]: +- Queue 'REMOVEXPAN_19_DefenseRely' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:06:55] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:06:55] [Server thread/INFO]: Completing queue 'REMOVEXPAN_19_DefenseRely' in 11ms. 
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 24) wait 2t ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.1s (0.1s)'  mode='DELTA'   
+[01:06:55] [Server thread/INFO]: Forcing queue 'COMECAR_18_FutureStopped' into a timed queue... 
+[01:06:55] [Server thread/INFO]: +- Queue 'COMECAR_18_FutureStopped' Executing: (line 26) run expanspawn ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'RUN': script='s@expanspawn (TASK)'   
+[01:06:55] [Server thread/INFO]: Starting InstantQueue 'EXPANSPAWN_21_AppropriationsCraft' with player 'lokopeto'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 70) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth ---------+ 
+[01:06:55] [Server thread/INFO]: ...remembering this script entry as 'expandsouth'! 
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:55] [Server thread/INFO]: Filled tag <location[0,0,8,0,180,jogo].add[l@0.5,65,0.5]> with 'l@0.5, 65, 8.5, 0, 180, jogo'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true]'  location='l@0.5, 65, 8.5, 0, 180, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:55] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 71) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth ---------+ 
+[01:06:55] [Server thread/INFO]: ...remembering this script entry as 'expandnorth'! 
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:55] [Server thread/INFO]: Filled tag <location[0,0,-8,0,0,jogo].add[l@0.5,65,0.5]> with 'l@0.5, 65, -7.5, jogo'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true]'  location='l@0.5, 65, -7.5, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:55] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 72) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast ---------+ 
+[01:06:55] [Server thread/INFO]: ...remembering this script entry as 'expandeast'! 
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:55] [Server thread/INFO]: Filled tag <location[8,0,0,0,90,jogo].add[l@0.5,65,0.5]> with 'l@8.5, 65, 0.5, 0, 90, jogo'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true]'  location='l@8.5, 65, 0.5, 0, 90, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:55] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 73) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest ---------+ 
+[01:06:55] [Server thread/INFO]: ...remembering this script entry as 'expandwest'! 
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5, 65, 0.5'. 
+[01:06:55] [Server thread/INFO]: Filled tag <location[-8,0,0,0,-90,jogo].add[l@0.5,65,0.5]> with 'l@-7.5, 65, 0.5, 0, 270, jogo'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true]'  location='l@-7.5, 65, 0.5, 0, 270, jogo'  persistent='false'  reason='CUSTOM'   
+[01:06:55] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 75) flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> ---------+ 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul)'. 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte)'. 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste)'. 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:SPLIT:e@c90f1686-bcc2-4a4e-8a3b-6d3320b02404/armor_stand|e@794adad8-3440-4c11-981d-5bbc0476e350/armor_stand|e@5f8591ec-1634-4de9-b50b-5dbb2067b1db/armor_stand|e@f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8/armor_stand) 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 77) wait 1t ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.05s (0.05s)'  mode='DELTA'   
+[01:06:55] [Server thread/INFO]: Forcing queue 'EXPANSPAWN_21_AppropriationsCraft' into a timed queue... 
+[01:06:55] [Server thread/INFO]: Completing queue 'COMECAR_18_FutureStopped' in 102ms. 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 79) foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa ---------+ 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul)'. 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte)'. 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste)'. 
+[01:06:55] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'. 
+[01:06:55] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul) | e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte) | e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste) | e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'  
+                 as='expandcompa'   
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:55] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, 8, jogo'. 
+[01:06:55] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@0,65,8,jogo ... false 
+[01:06:55] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:55] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:55] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, -8, jogo'. 
+[01:06:55] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@0,65,-8,jogo ... false 
+[01:06:55] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:55] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:55] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@8, 65, 0, jogo'. 
+[01:06:55] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@8,65,0,jogo ... false 
+[01:06:55] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:55] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:55] [Server thread/INFO]: +- Queue 'EXPANSPAWN_21_AppropriationsCraft' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:06:55] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:55] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 0'. 
+[01:06:55] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@-8, 65, 0, jogo'. 
+[01:06:55] [Server thread/INFO]: Comparing if l@0,65,0 EQUALS l@-8,65,0,jogo ... false 
+[01:06:55] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:06:55] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:55] [Server thread/INFO]: Completing queue 'EXPANSPAWN_21_AppropriationsCraft' in 61ms. 
+[01:06:58] [Server thread/INFO]: Running script event 'PlayerRightClicksEntity', event='on player right clicks armor_stand' for script 'EXPANDROTATION' 
+[01:06:58] [Server thread/INFO]: Starting InstantQueue 'EXPANDROTATION_23_ExplainKnee' with player 'lokopeto'... 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 32) if <server.flag[expand]> contains <context.entity> ---------+ 
+[01:06:58] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:58] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul) | e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte) | e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste) | e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'. 
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity> with 'e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul)'. 
+[01:06:58] [Server thread/INFO]: Comparing if li@e@c90f1686-bcc2-4a4e-8a3b-6d3320b02404/armor_stand|e@794adad8-3440-4c11-981d-5bbc0476e350/armor_stand|e@5f8591ec-1634-4de9-b50b-5dbb2067b1db/armor_stand|e@f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8/armor_stand| CONTAINS e@c90f1686-bcc2-4a4e-8a3b-6d3320b02404/armor_stand ... true 
+[01:06:58] [Server thread/INFO]: If command passed, running block. 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 33) if Sul|Norte|Leste|Oeste contains <context.entity.custom_name> ---------+ 
+[01:06:58] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Sul'. 
+[01:06:58] [Server thread/INFO]: Comparing if Sul|Norte|Leste|Oeste CONTAINS Sul ... true 
+[01:06:58] [Server thread/INFO]: If command passed, running block. 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 35) determine cancelled passively ---------+ 
+[01:06:58] [Server thread/INFO]: +> Executing 'DETERMINE': outcome='cancelled'  passively='true'  Queue='q@EXPANDROTATION_23_ExplainKnee'   
+[01:06:58] [Server thread/INFO]: Event cancelled! 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 37) flag server expandloc:<context.entity.location.backward[9]> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity.location.backward[9]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@0.5000000000000011,65,17.5,0,180,jogo) 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 38) flag server expandlastloc:<context.entity.location.backward[1]> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity.location.backward[1]> with 'l@0.5000000000000001, 65, 9.5, 0, 180, jogo'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@0.5000000000000001,65,9.5,0,180,jogo) 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 39) flag server expandlast:<context.entity.custom_name> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Sul'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:SET:Sul) 
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 41) schematic paste name:florest <context.entity.location.backward[17].below[129].right[8]> angle:<context.entity.location.yaw> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity.location.backward[17].below[129].right[8]> with 'l@8.500000000000002, -64, 25.5, 0, 180, jogo'. 
+[01:06:58] [Server thread/INFO]: Filled tag <context.entity.location.yaw> with '180'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='florest'  location='l@8, -64, 25, jogo'  angle='180'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:06:58] [Server thread/INFO]: +- Queue 'EXPANDROTATION_23_ExplainKnee' Executing: (line 43) run removexpan ---------+ 
+[01:06:58] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:06:58] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_24_MongoliaMisterGank' with player 'lokopeto'... 
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul) | e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte) | e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste) | e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul) | e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte) | e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste) | e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'  
+                 as='expandenty'   
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul)'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ c90f1686-bcc2-4a4e-8a3b-6d3320b02404(ARMOR_STAND/Sul)]'   
+[01:06:58] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte)'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 794adad8-3440-4c11-981d-5bbc0476e350(ARMOR_STAND/Norte)]'   
+[01:06:58] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste)'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 5f8591ec-1634-4de9-b50b-5dbb2067b1db(ARMOR_STAND/Leste)]'   
+[01:06:58] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ f26d70c3-b68f-446b-8ea0-a9d6bd0f78c8(ARMOR_STAND/Oeste)]'   
+[01:06:58] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 62) flag server expand:! ---------+ 
+[01:06:58] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:06:58] [Server thread/INFO]: +- Queue 'REMOVEXPAN_24_MongoliaMisterGank' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:06:58] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:06:58] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:06:58] [Server thread/INFO]: Completing queue 'REMOVEXPAN_24_MongoliaMisterGank' in 10ms. 
+[01:06:58] [Server thread/INFO]: Completing queue 'EXPANDROTATION_23_ExplainKnee' in 61ms. 
+[01:07:00] [Server thread/INFO]: lokopeto issued server command: /ex run EXPANSPAWN
+[01:07:00] [Server thread/INFO]: Starting InstantQueue 'EXCOMMAND_25_SciSecondary' with player 'lokopeto'... 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXCOMMAND_25_SciSecondary' Executing: (line 1) run EXPANSPAWN ---------+ 
+[01:07:00] [Server thread/INFO]: +> Executing 'RUN': script='s@expanspawn (TASK)'   
+[01:07:00] [Server thread/INFO]: Starting InstantQueue 'EXPANSPAWN_26_QuantumDenizen' with player 'lokopeto'... 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 70) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth ---------+ 
+[01:07:00] [Server thread/INFO]: ...remembering this script entry as 'expandsouth'! 
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <location[0,0,8,0,180,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@0.5000000000000011, 65, 25.5, 0, 180, jogo'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true]'  location='l@0.5000000000000011, 65, 25.5, 0, 180, jogo'  persistent='false'  reason='CUSTOM'   
+[01:07:00] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 71) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth ---------+ 
+[01:07:00] [Server thread/INFO]: ...remembering this script entry as 'expandnorth'! 
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <location[0,0,-8,0,0,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@0.5000000000000011, 65, 9.5, jogo'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true]'  location='l@0.5000000000000011, 65, 9.5, jogo'  persistent='false'  reason='CUSTOM'   
+[01:07:00] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 72) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast ---------+ 
+[01:07:00] [Server thread/INFO]: ...remembering this script entry as 'expandeast'! 
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <location[8,0,0,0,90,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@8.500000000000002, 65, 17.5, 0, 90, jogo'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true]'  location='l@8.500000000000002, 65, 17.5, 0, 90, jogo'  persistent='false'  reason='CUSTOM'   
+[01:07:00] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 73) spawn armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest ---------+ 
+[01:07:00] [Server thread/INFO]: ...remembering this script entry as 'expandwest'! 
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandloc]> with 'l@0.5000000000000011, 65, 17.5, 0, 180, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <location[-8,0,0,0,-90,jogo].add[l@0.5000000000000011,65,17.5,0,180,jogo]> with 'l@-7.499999999999999, 65, 17.5, 0, 270, jogo'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'SPAWN': entities='armor_stand[visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true]'  location='l@-7.499999999999999, 65, 17.5, 0, 270, jogo'  persistent='false'  reason='CUSTOM'   
+[01:07:00] [Server thread/INFO]: Applying property 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Applying property 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'equipment' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: Adjust mechanism 'custom_name_visible' on object of type 'EntityTag'... 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 75) flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> ---------+ 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul)'. 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 22190304-893d-4b51-a3bd-1a5a1bf85314(ARMOR_STAND/Norte)'. 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste)'. 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:SPLIT:e@8fae39c4-4263-4b6d-9212-8db31cc4a238/armor_stand|e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand|e@4191c22a-7d45-4815-a6f1-f64def9514c1/armor_stand|e@0ac9660b-9051-475b-8059-22575f903cd0/armor_stand) 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 77) wait 1t ---------+ 
+[01:07:00] [Server thread/INFO]: +> Executing 'WAIT': delay='d@0.05s (0.05s)'  mode='DELTA'   
+[01:07:00] [Server thread/INFO]: Forcing queue 'EXPANSPAWN_26_QuantumDenizen' into a timed queue... 
+[01:07:00] [Server thread/INFO]: Completing queue 'EXCOMMAND_25_SciSecondary' in 20ms. 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 79) foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa ---------+ 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandsouth].spawned_entity> with 'e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul)'. 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandnorth].spawned_entity> with 'e@ 22190304-893d-4b51-a3bd-1a5a1bf85314(ARMOR_STAND/Norte)'. 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandeast].spawned_entity> with 'e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste)'. 
+[01:07:00] [Server thread/INFO]: Filled tag <entry[expandwest].spawned_entity> with 'e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul) | e@ 22190304-893d-4b51-a3bd-1a5a1bf85314(ARMOR_STAND/Norte) | e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste) | e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'  
+                 as='expandcompa'   
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:07:00] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, 25, jogo'. 
+[01:07:00] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@0,65,25,jogo ... false 
+[01:07:00] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:07:00] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:07:00] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@0, 65, 9, jogo'. 
+[01:07:00] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@0,65,9,jogo ... true 
+[01:07:00] [Server thread/INFO]: If command passed, running block. 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 81) remove <[expandcompa]> ---------+ 
+[01:07:00] [Server thread/INFO]: Filled tag <[expandcompa]> with 'e@ 22190304-893d-4b51-a3bd-1a5a1bf85314(ARMOR_STAND/Norte)'. 
+[01:07:00] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 22190304-893d-4b51-a3bd-1a5a1bf85314(ARMOR_STAND/Norte)]'   
+[01:07:00] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:07:00] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@8, 65, 17, jogo'. 
+[01:07:00] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@8,65,17,jogo ... false 
+[01:07:00] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:07:00] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:07:00] [Server thread/INFO]: +- Queue 'EXPANSPAWN_26_QuantumDenizen' Executing: (line 80) if <server.flag[expandlastloc].block> = <[expandcompa].location.block> ---------+ 
+[01:07:00] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:07:00] [Server thread/INFO]: Filled tag <server.flag[expandlastloc].block> with 'l@0, 65, 9, jogo'. 
+[01:07:00] [Server thread/INFO]: Filled tag <[expandcompa].location.block> with 'l@-8, 65, 17, jogo'. 
+[01:07:00] [Server thread/INFO]: Comparing if l@0,65,9,jogo EQUALS l@-8,65,17,jogo ... false 
+[01:07:00] [Server thread/INFO]: No part of the if command passed, no block will run. 
+[01:07:00] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:07:00] [Server thread/INFO]: Completing queue 'EXPANSPAWN_26_QuantumDenizen' in 29ms. 
+[01:07:06] [Server thread/INFO]: Running script event 'PlayerRightClicksEntity', event='on player right clicks armor_stand' for script 'EXPANDROTATION' 
+[01:07:06] [Server thread/INFO]: Starting InstantQueue 'EXPANDROTATION_28_CatalogueMs' with player 'lokopeto'... 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 32) if <server.flag[expand]> contains <context.entity> ---------+ 
+[01:07:06] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:07:06] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul) | e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand | e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste) | e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'. 
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity> with 'e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'. 
+[01:07:06] [Server thread/INFO]: Comparing if li@e@8fae39c4-4263-4b6d-9212-8db31cc4a238/armor_stand|e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand|e@4191c22a-7d45-4815-a6f1-f64def9514c1/armor_stand|e@0ac9660b-9051-475b-8059-22575f903cd0/armor_stand| CONTAINS e@0ac9660b-9051-475b-8059-22575f903cd0/armor_stand ... true 
+[01:07:06] [Server thread/INFO]: If command passed, running block. 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 33) if Sul|Norte|Leste|Oeste contains <context.entity.custom_name> ---------+ 
+[01:07:06] [Server thread/INFO]: +> Executing 'IF': use_braces='true'   
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Oeste'. 
+[01:07:06] [Server thread/INFO]: Comparing if Sul|Norte|Leste|Oeste CONTAINS Oeste ... true 
+[01:07:06] [Server thread/INFO]: If command passed, running block. 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 35) determine cancelled passively ---------+ 
+[01:07:06] [Server thread/INFO]: +> Executing 'DETERMINE': outcome='cancelled'  passively='true'  Queue='q@EXPANDROTATION_28_CatalogueMs'   
+[01:07:06] [Server thread/INFO]: Event cancelled! 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 37) flag server expandloc:<context.entity.location.backward[9]> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity.location.backward[9]> with 'l@-16.5, 65, 17.5, 0, 270, jogo'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandloc:SET:l@-16.5,65,17.5,0,270,jogo) 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 38) flag server expandlastloc:<context.entity.location.backward[1]> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity.location.backward[1]> with 'l@-8.5, 65, 17.5, 0, 270, jogo'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlastloc:SET:l@-8.5,65,17.5,0,270,jogo) 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 39) flag server expandlast:<context.entity.custom_name> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity.custom_name> with 'Oeste'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expandlast:SET:Oeste) 
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 41) schematic paste name:florest <context.entity.location.backward[17].below[129].right[8]> angle:<context.entity.location.yaw> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity.location.backward[17].below[129].right[8]> with 'l@-24.5, -64, 25.500000000000004, 0, 270, jogo'. 
+[01:07:06] [Server thread/INFO]: Filled tag <context.entity.location.yaw> with '270'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'SCHEMATIC': type='PASTE'  name='florest'  location='l@-25, -64, 25, jogo'  angle='270'  noair='false'  delayed='false'  max_delay_ms='50'  flags='false'  entities='false'   
+[01:07:06] [Server thread/INFO]: +- Queue 'EXPANDROTATION_28_CatalogueMs' Executing: (line 43) run removexpan ---------+ 
+[01:07:06] [Server thread/INFO]: +> Executing 'RUN': script='s@removexpan (TASK)'   
+[01:07:06] [Server thread/INFO]: Starting InstantQueue 'REMOVEXPAN_29_ProtectionSixth' with player 'lokopeto'... 
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 59) foreach <server.flag[expand]> as:expandenty ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <server.flag[expand]> with 'li@ (Size 4): e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul) | e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand | e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste) | e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'FOREACH': list='li@ (Size 4): e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul) | e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand | e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste) | e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'  as='expandenty'   
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul)'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 8fae39c4-4263-4b6d-9212-8db31cc4a238(ARMOR_STAND/Sul)]'   
+[01:07:06] [Server thread/INFO]: +- Foreach loop 2 ---------+ 
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@22190304-893d-4b51-a3bd-1a5a1bf85314/armor_stand]'   
+[01:07:06] [Server thread/INFO]:  ERROR in script 'removexpan' in queue 'REMOVEXPAN_29_ProtectionSixth' while executing command 'REMOVE' in file '\scripts\mapas.dsc' on line '60' with player 'lokopeto'!
+                 Error Message: Tried to remove already-removed entity. 
+[01:07:06] [Server thread/INFO]: +- Foreach loop 3 ---------+ 
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste)'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 4191c22a-7d45-4815-a6f1-f64def9514c1(ARMOR_STAND/Leste)]'   
+[01:07:06] [Server thread/INFO]: +- Foreach loop 4 ---------+ 
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 60) remove <[expandenty]> ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <[expandenty]> with 'e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'REMOVE': world='w@jogo'  entities='[e@ 0ac9660b-9051-475b-8059-22575f903cd0(ARMOR_STAND/Oeste)]'   
+[01:07:06] [Server thread/INFO]: +- Foreach loop complete ---------+ 
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 62) flag server expand:! ---------+ 
+[01:07:06] [Server thread/INFO]: +> Executing 'FLAG': targets='li@ (Size 1): server'  (expand:CLEAR:null) 
+[01:07:06] [Server thread/INFO]: +- Queue 'REMOVEXPAN_29_ProtectionSixth' Executing: (line 64) playsound <player> sound:BLOCK_NOTE_BLOCK_CHIME volume:0.8 ---------+ 
+[01:07:06] [Server thread/INFO]: Filled tag <player> with 'p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)'. 
+[01:07:06] [Server thread/INFO]: +> Executing 'PLAYSOUND': entities='[p@d09f8eb8-ae7d-3caa-bb58-e29486b30db7 (lokopeto)]'  sound='BLOCK_NOTE_BLOCK_CHIME'  volume='0.8'  pitch='1'  custom='false'   
+[01:07:06] [Server thread/INFO]: Completing queue 'REMOVEXPAN_29_ProtectionSixth' in 10ms. 
+[01:07:06] [Server thread/INFO]: Completing queue 'EXPANDROTATION_28_CatalogueMs' in 62ms. 
+[01:13:31] [Server thread/INFO]: Stopping the server
+[01:13:31] [Server thread/INFO]: Stopping server
+[01:13:31] [Server thread/INFO]: [Depenizen] Disabling Depenizen v2.1.0 (build 845)
+[01:13:31] [Server thread/INFO]: [Denizen]  v1.2.8-SNAPSHOT (build 1795-REL) disabled.
+[01:13:31] [Server thread/INFO]: [goBrush] Disabling goBrush v3.8.0-62
+[01:13:31] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[01:13:31] [Server thread/INFO]: [NoBlackSky] Disabling NoBlackSky v2.10
+[01:13:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[01:13:31] [Server thread/INFO]: [Skript] Disabling Skript v2.7.0
+[01:13:31] [Server thread/INFO]: [Sentinel] Disabling Sentinel v2.8.0-SNAPSHOT (build 508)
+[01:13:31] [Server thread/INFO]: [Sentinel] Sentinel unloading...
+[01:13:31] [Server thread/INFO]: [Sentinel] Sentinel unloaded!
+[01:13:31] [Server thread/INFO]: [Denizen] Disabling Denizen v1.2.8-SNAPSHOT (build 1795-REL)
+[01:13:31] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.7.2-SNAPSHOT-558;0744504
+[01:13:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:13:31] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[01:13:31] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.32-SNAPSHOT (build 3203)
+[01:13:31] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[01:13:31] [Server thread/INFO]: Saving players
+[01:13:31] [Server thread/INFO]: lokopeto lost connection: Server closed
+[01:13:31] [Server thread/INFO]: lokopeto left the game
+[01:13:31] [Server thread/INFO]: Saving worlds
+[01:13:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,00s
+[01:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:13:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[jogo]'/minecraft:jogo
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'jogo'
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'jogo'
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'jogo'
+[01:13:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'jogo' in 0,00s
+[01:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (jogo): All chunks are saved
+[01:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:13:31] [Server thread/INFO]: Flushing Chunk IO
+[01:13:31] [Server thread/INFO]: Closing Thread Pool
+[01:13:31] [Server thread/INFO]: Closing Server
