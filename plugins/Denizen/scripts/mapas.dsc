@@ -54,6 +54,7 @@ comecar:
         - run removexpan
 
         - wait 2t
+        - flag server comecar
 
         - run expanspawn
 
@@ -70,12 +71,12 @@ expand:
                     - determine cancelled passively
 
                     - flag server expandloc:<context.entity.location.backward[9]>
-                    - flag server expandlastloc:->:<context.entity.location.backward[1]>
+                    - flag server expandlastloc:->:<context.entity.location.backward[1].round.with_y[65].xyz>
                     - flag server expandlast:<context.entity.custom_name>
 
                     - random:
                         - repeat 1:
-                            - schematic paste name:florest <context.entity.location.backward[17].below[129].right[8]> angle:<context.entity.location.yaw>
+                            - schematic paste name:florest <context.entity.location.with_y[-64].backward[17].right[8]> angle:<context.entity.location.yaw>
                             - spawn cow <server.flag[expandloc]> save:uuidmob
                             - execute as_server "execute in minecraft:jogo run spreadplayers <server.flag[expandloc].x> <server.flag[expandloc].z> 0 7 true <entry[uuidmob].spawned_entity.uuid>"
 
@@ -101,7 +102,6 @@ removexpan:
 expanspawn:
     type: task
     script:
-
         - flag server expand:!
 
         - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth
@@ -109,12 +109,12 @@ expanspawn:
         - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast
         - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest
 
-        - flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity>
-        - flag server expandorig:|:<entry[expandsouth]>|<entry[expandnorth]>|<entry[expandeast]>|<entry[expandwest]>
-
-
-        - wait 1t
+        - if <server.flag[comecar]>:
+            - flag server expandlastloc:<entry[expandsouth].spawned_entity.location.backward[1].round>|<entry[expandnorth].spawned_entity.location.backward[1].round>|<entry[expandeast].spawned_entity.location.backward[1].round>|<entry[expandwest].spawned_entity.location.backward[1].round>
+            - flag server comecar:!
 
         - foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa:
-            - if <server.flag[expandlastloc].block> contains <[expandcompa].location.block>:
+            - if <server.flag[expandlastloc]> contains <[expandcompa].location.with_y[65].round.xyz>:
                 - remove <[expandcompa]>
+
+        - flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity>
