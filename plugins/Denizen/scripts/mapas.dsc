@@ -48,12 +48,13 @@ comecar:
         - teleport <server.players> <location[0.5,65,0.5,jogo]>
 
         - flag server expandloc:<location[0.5,65,0.5]>
+        - flag server expandlastloc:!
         - flag server expandlastloc:<location[0.5,65,0.5]>
         - flag server expandlast:!
 
         - run removexpan
 
-        - wait 2t
+        - waituntil <script[removexpan]>
         - flag server comecar
 
         - run expanspawn
@@ -66,12 +67,14 @@ expand:
     events:
         on player right clicks armor_stand:
             - if <server.flag[expand]> contains <context.entity>:
+                - foreach <server.flag[expand]>:
+                    - flag server expandlastloc:->:<[value].location.backward[1].round_to[2].with_y[65].xyz>
+
                 - if Sul|Norte|Leste|Oeste contains <context.entity.custom_name>:
 
                     - determine cancelled passively
 
                     - flag server expandloc:<context.entity.location.backward[9]>
-                    - flag server expandlastloc:->:<context.entity.location.backward[1].round.with_y[65].xyz>
                     - flag server expandlast:<context.entity.custom_name>
 
                     - random:
@@ -103,18 +106,17 @@ expanspawn:
     type: task
     script:
         - flag server expand:!
-
-        - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth
-        - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth
-        - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast
-        - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest
-
-        - if <server.flag[comecar]>:
-            - flag server expandlastloc:<entry[expandsouth].spawned_entity.location.backward[1].round>|<entry[expandnorth].spawned_entity.location.backward[1].round>|<entry[expandeast].spawned_entity.location.backward[1].round>|<entry[expandwest].spawned_entity.location.backward[1].round>
-            - flag server comecar:!
-
-        - foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa:
-            - if <server.flag[expandlastloc]> contains <[expandcompa].location.with_y[65].round.xyz>:
-                - remove <[expandcompa]>
+        - if !<server.flag[expandlastloc].contains[<location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]>]>:
+            - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Norte;custom_name_visible=true] <location[0,0,-8,0,0,jogo].add[<server.flag[expandloc]>]> save:expandnorth
+        - if !<server.flag[expandlastloc].contains[<location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]>]>:
+            - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Sul;custom_name_visible=true] <location[0,0,8,0,180,jogo].add[<server.flag[expandloc]>]> save:expandsouth
+        - if !<server.flag[expandlastloc].contains[<location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]>]>:
+            - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Leste;custom_name_visible=true] <location[8,0,0,0,90,jogo].add[<server.flag[expandloc]>]> save:expandeast
+        - if !<server.flag[expandlastloc].contains[<location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]>]>:
+            - spawn armor_stand[gravity=false;visible=false;equipment=air|air|air|redstone_block;custom_name=Oeste;custom_name_visible=true] <location[-8,0,0,0,-90,jogo].add[<server.flag[expandloc]>]> save:expandwest
 
         - flag server expand:|:<entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity>
+
+        - foreach <entry[expandsouth].spawned_entity>|<entry[expandnorth].spawned_entity>|<entry[expandeast].spawned_entity>|<entry[expandwest].spawned_entity> as:expandcompa:
+            - if <list[<location[-8.5,65,0.5].xyz>|<location[9.5,65,0.5].xyz>|<location[0.5,65,-8.5].xyz>|<location[0.5,65,9.5].xyz>].contains_text[<[expandcompa].location.with_y[65].round_to[2].xyz>]>:
+                - remove <[expandcompa]>
